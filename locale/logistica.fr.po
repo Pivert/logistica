@@ -4,90 +4,69 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-04 22:18+0500\n"
-"PO-Revision-Date: 2025-11-01 12:00+0100\n"
-"Last-Translator: French Community <fr@logistica.mod>\n"
-"Language-Team: French <fr@li.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #: api/bucket_emptier.lua:22
 msgid "Provided with filled buckets, empties them into any network reservoirs"
-msgstr "Fourni avec des seaux remplis, les vide dans les réservoirs du réseau"
+msgstr "Fourni avec des seaux remplis, il les vide dans les réservoirs du réseau."
 
 #: api/bucket_emptier.lua:23
 msgid "Resulting empty buckets are provided as passive supply to network"
-msgstr "Les seaux vides résultants sont fournis comme approvisionnement passif au réseau"
+msgstr "Les seaux vides qui en résultent sont fournis au réseau en tant qu'alimentation passive."
 
 #: api/bucket_emptier.lua:27
 msgid "Input: Filled Buckets to be emptied"
 msgstr "Entrée : Seaux remplis à vider"
 
-#: api/bucket_emptier.lua:28 api/cobble_supplier.lua:43 api/crafter_auto.lua:48
-#: api/crafting_supplier.lua:28 api/injector.lua:43
 #: api/lava_furnace_fueler.lua:38 api/pump.lua:37 api/requester.lua:37
 msgid "Enable"
 msgstr "Activer"
 
 #: api/bucket_filler.lua:10
-msgid ""
-"If no Empty Buckets are added here,\n"
-"then they will be taken from the network."
-msgstr ""
+msgid "If no Empty Buckets are added here,\nthen they will be taken from the network."
+msgstr "Si aucun Empty Buckets n'est ajouté ici, ils seront retirés du réseau."
 
 #: api/bucket_filler.lua:15 logic/access_point_formspec.lua:223
 msgid "Error: "
-msgstr "Erreur : "
+msgstr "Erreur :"
 
 #: api/bucket_filler.lua:25
-msgid ""
-"Supplies the selected filled buckets on-demand, if empty buckets are "
-"available"
-msgstr ""
+msgid "Supplies the selected filled buckets on-demand, if empty buckets are available"
+msgstr "Fournit à la demande les godets remplis sélectionnés, si des godets vides sont disponibles."
 
 #: api/bucket_filler.lua:26
 msgid "Optional Empty Buckets"
-msgstr ""
+msgstr "Seaux vides en option"
 
 #: api/bucket_filler.lua:30
 msgid "Supply"
-msgstr ""
+msgstr "Approvisionnement"
 
 #: api/bucket_filler.lua:31
 msgid "Amount Available"
-msgstr ""
+msgstr "Montant disponible"
 
 #: api/cables.lua:67 api/cables_toggleable.lua:97
 msgid "Broken "
-msgstr "Cassé "
+msgstr "Brisé"
 
 #: api/cobble_supplier.lua:14
-msgid ""
-"Upgrade slots: The 2 slots to the right are for placing cobble generator "
-"upgrades."
-msgstr ""
+msgid "Upgrade slots: The 2 slots to the right are for placing cobble generator upgrades."
+msgstr "Emplacements pour les améliorations : Les deux emplacements de droite servent à placer les améliorations du générateur de galets."
 
 #: api/cobble_supplier.lua:49
 msgid "Generates @1 and passively supplies it to Network"
-msgstr "Génère @1 et le fournit passivement au Réseau"
+msgstr "Génère @1 et le fournit passivement au réseau"
 
 #: api/controller.lua:15
 msgid "Network Name"
-msgstr "Nom du Réseau"
+msgstr "Nom du réseau"
 
 #: api/controller.lua:16
 msgid "Set"
-msgstr "Définir"
+msgstr "Set (jeu de mots)"
 
 #: api/controller.lua:42
 msgid "Controller of Network: "
-msgstr "Contrôleur du Réseau : "
+msgstr "Contrôleur du réseau :"
 
 #: api/crafter_auto.lua:45 api/crafting_supplier.lua:32
 msgid "Recipe"
@@ -103,22 +82,19 @@ msgstr "Entrée"
 
 #: api/crafting_supplier.lua:29
 msgid "Crafts items when requested by Network. Excess stored below."
-msgstr "Fabrique des objets à la demande du Réseau. L'excès est stocké ci-dessous."
+msgstr "Articles artisanaux à la demande du réseau. L'excédent est stocké en dessous."
 
 #: api/crafting_supplier.lua:33
 msgid "Excess items, provided as supply. If full, excess will be thrown out."
-msgstr "Objets excédentaires, fournis comme approvisionnement. Si plein, l'excès sera jeté."
+msgstr "Les articles excédentaires sont fournis. S'il est plein, l'excédent sera jeté."
 
 #: api/injector.lua:13
-msgid ""
-"Select what types of machines this Importer will put items into.\n"
-"Machine priority is from top to bottom, e.g. Trashcans, if enabled,\n"
-"are always the last machine type that items are put into."
-msgstr ""
+msgid "Select what types of machines this Importer will put items into.\nMachine priority is from top to bottom, e.g. Trashcans, if enabled,\nare always the last machine type that items are put into."
+msgstr "Sélectionnez les types de machines dans lesquelles cet importateur placera les articles. La priorité des machines est donnée de haut en bas, par exemple les poubelles, si elles sont activées, sont toujours le dernier type de machine dans lequel les articles sont placés."
 
 #: api/injector.lua:20
 msgid "Put in (?):"
-msgstr "Mettre dans (?) :"
+msgstr "Mettre en ( ?):"
 
 #: api/injector.lua:21
 msgid "Requesters"
@@ -126,7 +102,7 @@ msgstr "Demandeurs"
 
 #: api/injector.lua:22
 msgid "Mass/Item Storage"
-msgstr "Stockage de masse/objets"
+msgstr "Stockage des masses/éléments"
 
 #: api/injector.lua:23
 msgid "Supply Chests"
@@ -138,19 +114,19 @@ msgstr "Poubelles"
 
 #: api/injector.lua:36
 msgid "Network Importer take items from target and add them to the network"
-msgstr "L'Importateur de Réseau prend des objets de la cible et les ajoute au réseau"
+msgstr "L'importateur de réseau prend des éléments de la cible et les ajoute au réseau."
 
 #: api/injector.lua:37
 msgid "Filter: Import only filtered. If empty, imports all items."
-msgstr "Filtre : Importer seulement filtré. Si vide, importe tous les objets."
+msgstr "Filtre : Importe uniquement les éléments filtrés. S'il est vide, tous les éléments sont importés."
 
 #: api/injector.lua:42
 msgid "Take items from:"
-msgstr "Prendre des objets de :"
+msgstr "Prendre des articles à partir de :"
 
 #: api/item_storage.lua:20
 msgid "Tool Chest: Accepts only tools, no stackable items"
-msgstr "Coffre à outils : Accepte uniquement des outils, pas d'objets empilables"
+msgstr "Coffre à outils : N'accepte que les outils, pas d'objets empilables"
 
 #: api/item_storage.lua:23 logic/access_point_formspec.lua:128
 msgid "Sort"
@@ -158,14 +134,12 @@ msgstr "Trier"
 
 #: api/lava_furnace.lua:137
 msgid "Remaining: "
-msgstr "Restant : "
+msgstr "Restant :"
 
-#: api/lava_furnace.lua:137 api/lava_furnace_fueler.lua:20
 #: api/lava_furnace_fueler.lua:36
 msgid " Buckets"
-msgstr " Seaux"
+msgstr "Seaux"
 
-#: api/lava_furnace.lua:153 logic/lava_furnace_guide_formspec.lua:44
 #: util/liquids.lua:12
 msgid "Lava"
 msgstr "Lave"
@@ -176,11 +150,11 @@ msgstr "Additifs"
 
 #: api/lava_furnace.lua:155
 msgid "Crafts unique recipes (click ? button in top right)"
-msgstr "Fabrique des recettes uniques (cliquez le bouton ? en haut à droite)"
+msgstr "Création de recettes uniques (cliquez sur le bouton ? en haut à droite)"
 
 #: api/lava_furnace.lua:156
 msgid "and can also cook regular recipes at twice the speed"
-msgstr "et peut aussi cuire des recettes normales deux fois plus vite"
+msgstr "et peut également cuisiner des recettes normales à une vitesse deux fois plus élevée"
 
 #: api/lava_furnace.lua:164
 msgid "Recipes"
@@ -188,83 +162,67 @@ msgstr "Recettes"
 
 #: api/lava_furnace_fueler.lua:20
 msgid "Refuel if level below: "
-msgstr "Ravitailler si niveau sous : "
+msgstr "Refaire le plein si le niveau est inférieur :"
 
 #: api/lava_furnace_fueler.lua:31
 msgid "Lava Furnace Fueler: Refuels Lava Furnace"
-msgstr "Ravitailleur de Four à Lave : Ravitaille le Four à Lave"
+msgstr "Combustible pour four à lave : Ravitaille le four de lave"
 
 #: api/lava_furnace_fueler.lua:32
 msgid "from Reservoirs connected to Network"
-msgstr "depuis les Réservoirs connectés au Réseau"
+msgstr "des réservoirs connectés au réseau"
 
 #: api/lava_furnace_fueler.lua:33
 msgid "Refuel when lava drops below:"
-msgstr "Ravitailler quand la lave descend sous :"
+msgstr "Refaites le plein lorsque la lave tombe en dessous :"
 
 #: api/mass_storage.lua:15
-msgid ""
-"How many items to reserve.\n"
-"Reserved items won't be taken by other network machines"
-msgstr ""
+msgid "How many items to reserve.\nReserved items won't be taken by other network machines"
+msgstr "Nombre d'éléments à réserver.\NLes éléments réservés ne seront pas pris par d'autres machines du réseau."
 
 #: api/mass_storage.lua:16
-msgid ""
-"Pick which slot to use as front image.\n"
-"Click the selected slot again to disable the front image."
-msgstr ""
+msgid "Pick which slot to use as front image.\nClick the selected slot again to disable the front image."
+msgstr "Choisir l'emplacement à utiliser comme image de face.\NCliquer à nouveau sur l'emplacement sélectionné pour désactiver l'image de face."
 
 #: api/mass_storage.lua:17
 msgid "Place item to select what kind of item to store in each slot."
-msgstr "Placez l'objet pour sélectionner quel type d'objet stocker dans chaque emplacement."
+msgstr "Placez l'objet pour sélectionner le type d'objet à stocker dans chaque emplacement."
 
 #: api/mass_storage.lua:18
-msgid ""
-"Upgrade slots: The 4 slots to the right are for placing mass storage "
-"upgrades."
-msgstr ""
+msgid "Upgrade slots: The 4 slots to the right are for placing mass storage upgrades."
+msgstr "Emplacements pour les mises à niveau : Les 4 emplacements de droite servent à placer les mises à niveau de la mémoire de masse."
 
 #: api/mass_storage.lua:19
-msgid ""
-"Storage slots: items can be taken from them. To add items, put them in the "
-"input slot below."
-msgstr ""
+msgid "Storage slots: items can be taken from them. To add items, put them in the input slot below."
+msgstr "Emplacements de stockage : des objets peuvent y être prélevés. Pour ajouter des objets, il faut les placer dans l'emplacement d'entrée situé en dessous."
 
 #: api/mass_storage.lua:20
-msgid ""
-"Input slot: Place items here (or shift+click items to send them here) to put "
-"them in storage"
-msgstr ""
+msgid "Input slot: Place items here (or shift+click items to send them here) to put them in storage"
+msgstr "Emplacement d'entrée : Placer les objets ici (ou shift+clic sur les objets pour les envoyer ici) pour les placer dans le stockage."
 
 #: api/mass_storage.lua:21
-msgid ""
-"If ON, this mass storage will try to take stored items from Suppliers "
-"(except Crafting Suppliers) if it can store them."
-msgstr ""
+msgid "If ON, this mass storage will try to take stored items from Suppliers (except Crafting Suppliers) if it can store them."
+msgstr "Si cette option est activée, le magasin de masse essaiera de prendre les objets stockés chez les fournisseurs (sauf les fournisseurs d'artisanat) s'il peut les stocker."
 
 #: api/mass_storage.lua:86
 msgid "Front Img"
-msgstr "Img Facade"
+msgstr "Image de face"
 
 #: api/mass_storage.lua:99
 msgid "Res (?)"
-msgstr "Réserve (?)"
+msgstr "Res ( ?)"
 
 #: api/mass_storage.lua:131
 msgid "Pull Items"
-msgstr "Prendre Objets"
+msgstr "Articles à tirer"
 
-#: api/mass_storage.lua:196 guide/guide_content.lua:297
 #: registration/machines_api_reg.lua:238
 msgid "Mass Storage"
-msgstr "Stockage de Masse"
+msgstr "Mémoire de masse"
 
-#: api/mass_storage.lua:374 logic/mass_storage.lua:244
 #: logic/mass_storage.lua:251
-msgid ""
-"\n"
-"(Empty)"
-msgstr ""
+msgid "\n(Empty)"
+msgstr "\n(vide)"
 
 #: api/pump.lua:32
 msgid "Pumps liquids directly into neighbouring reservoirs (one on each side)"
@@ -272,97 +230,83 @@ msgstr "Pompe les liquides directement dans les réservoirs voisins (un de chaqu
 
 #: api/pump.lua:33
 msgid "Or if there are none, or are full, pumps into any network reservoirs"
-msgstr "Ou s'il n'y en a aucun, ou s'ils sont pleins, pompe dans n'importe quel réservoir du réseau"
+msgstr "S'il n'y en a pas ou s'ils sont pleins, pomper dans les réservoirs du réseau."
 
 #: api/pump.lua:34
 msgid "Max horizontal range, on each side of pump: "
-msgstr "Portée horizontale maximale, de chaque côté de la pompe : "
+msgstr "Portée horizontale maximale, de chaque côté de la pompe :"
 
 #: api/pump.lua:35
 msgid "Max vertical range, starting below the pump: "
-msgstr "Portée verticale maximale, commençant sous la pompe : "
+msgstr "Plage verticale maximale, commençant sous la pompe :"
 
 #: api/pump.lua:36
 msgid "MUST be placed directly above liquid surface, without gaps to liquid"
-msgstr "DOIT être placé directement au-dessus de la surface du liquide, sans espaces vers le liquide"
+msgstr "DOIT être placé directement au-dessus de la surface du liquide, sans espace avec le liquide."
 
 #: api/pump.lua:38
-msgid ""
-"Max Network Amount: If Network has more than\n"
-"this amount of liquid, don't pump any more.\n"
-"Set to 0 to ALWAYS pump into network.\n"
-"Only applies to pumping into network."
-msgstr ""
+msgid "Max Network Amount: If Network has more than\nthis amount of liquid, don't pump any more.\nSet to 0 to ALWAYS pump into network.\nOnly applies to pumping into network."
+msgstr "Quantité maximale du réseau : Si le réseau contient plus que cette quantité de liquide, ne plus pomper. Régler à 0 pour TOUJOURS pomper dans le réseau."
 
 #: api/pump.lua:39
 msgid "Max: "
-msgstr "Max : "
+msgstr "Max :"
 
 #: api/requester.lua:22
-msgid ""
-"Tick this to always try to insert the item above into the target inventory,\n"
-"regardless of how many of that item the target inventory contains.\n"
-"The number of items put above is then requested every second."
-msgstr ""
+msgid "Tick this to always try to insert the item above into the target inventory,\nregardless of how many of that item the target inventory contains.\nThe number of items put above is then requested every second."
+msgstr "Cochez cette case pour toujours essayer d'insérer l'élément ci-dessus dans l'inventaire cible, quel que soit le nombre de cet élément que contient l'inventaire cible. Le nombre d'éléments placés ci-dessus est alors demandé toutes les secondes."
 
 #: api/requester.lua:36
 msgid "Put items in:"
-msgstr "Mettre des objets dans :"
+msgstr "Mettez les articles en place :"
 
 #: api/requester.lua:38
-msgid ""
-"Configure items and count to put, and keep a minimium of, in target's "
-"inventory"
-msgstr ""
+msgid "Configure items and count to put, and keep a minimium of, in target's inventory"
+msgstr "Configurer les articles et le nombre d'articles à placer dans l'inventaire de la cible et en conserver un minimum."
 
 #: api/requester.lua:39
-msgid ""
-"Or tick the \"Inf\" (infinite) checkbox below a slot to always keep "
-"inserting the item."
-msgstr ""
+msgid "Or tick the \"Inf\" (infinite) checkbox below a slot to always keep inserting the item."
+msgstr "Vous pouvez également cocher la case "Inf\" (infini) sous un emplacement pour continuer à insérer l'article."
 
 #: api/supplier.lua:15
 msgid "Allow Storing from Network"
-msgstr "Permettre le Stockage depuis le Réseau"
+msgstr "Autoriser le stockage à partir du réseau"
 
 #: api/supplier.lua:16
-msgid ""
-"Passive Supplier\n"
-"Items become available to network requests."
-msgstr ""
+msgid "Passive Supplier\nItems become available to network requests."
+msgstr "Fournisseur passif Les éléments deviennent disponibles pour les demandes du réseau."
 
 #: api/trashcan.lua:11
 msgid "List of Items to delete, if they can't be put elsewhere in the Network."
-msgstr "Liste des objets à supprimer, s'ils ne peuvent pas être mis ailleurs dans le Réseau."
+msgstr "Liste des éléments à supprimer, s'ils ne peuvent pas être placés ailleurs dans le réseau."
 
 #: api/trashcan.lua:12
 msgid "If list is empty, it will delete all excess items."
-msgstr "Si la liste est vide, il supprimera tous les objets excédentaires."
+msgstr "Si la liste est vide, tous les éléments excédentaires seront supprimés."
 
 #: api/trashcan.lua:14
 msgid "Trash slot"
-msgstr ""
+msgstr "Fente à déchets"
 
 #: api/trashcan.lua:16
 msgid "Last deleted item"
-msgstr ""
+msgstr "Dernier élément supprimé"
 
 #: api/vaccuum_chest.lua:15
 msgid "Vaccuum items:"
-msgstr "Aspirer les objets :"
+msgstr "Articles sous vide :"
 
 #: api/vaccuum_chest.lua:16
 msgid "Supplies collected items to the network."
-msgstr "Fournit les objets collectés au réseau."
+msgstr "Fournit les éléments collectés au réseau."
 
-#: api/wireless_receiver.lua:38 guide/guide_content.lua:353
 #: registration/machines_api_reg.lua:310
 msgid "Wireless Receiver"
-msgstr "Récepteur Sans Fil"
+msgstr "Récepteur sans fil"
 
 #: api/wireless_receiver.lua:39
 msgid "Choose a network to connect to."
-msgstr "Choisissez un réseau auquel se connecter."
+msgstr "Choisissez un réseau auquel vous connecter."
 
 #: api/wireless_receiver.lua:41
 msgid "Connect"
@@ -370,7 +314,7 @@ msgstr "Connecter"
 
 #: api/wireless_receiver.lua:43
 msgid "Only your networks with a Wireless Transmitter can be connected to."
-msgstr "Seulement vos réseaux avec un Émetteur Sans Fil peuvent être connectés."
+msgstr "Seuls les réseaux dotés d'un émetteur sans fil peuvent être connectés."
 
 #: api/wireless_receiver.lua:44
 msgid "If a network isn't showing up, go near its controller to reactivate it."
@@ -386,31 +330,31 @@ msgstr "Échec de la connexion !"
 
 #: api/wireless_transmitter.lua:6
 msgid "Invalid Placement!"
-msgstr "Placement invalide !"
+msgstr "Placement non valide !"
 
 #: api/wireless_transmitter.lua:7
 msgid "Transmitter must be placed on top of a Network Controller"
-msgstr "L'Émetteur doit être placé au-dessus d'un Contrôleur de Réseau"
+msgstr "L'émetteur doit être placé au-dessus d'un contrôleur de réseau."
 
 #: api/wireless_transmitter.lua:27
 msgid "Transmitting Network: "
-msgstr "Réseau en Transmission : "
+msgstr "Réseau de transmission :"
 
 #: api/wireless_transmitter.lua:28
 msgid "Receivers connected: "
-msgstr "Récepteurs connectés : "
+msgstr "Récepteurs connectés :"
 
 #: api/wireless_transmitter.lua:28
 msgid " out of max: "
-msgstr " sur max : "
+msgstr "de max :"
 
 #: api/wireless_transmitter.lua:33 guide/guide_content.lua:345
 msgid "Wireless Transmitter"
-msgstr "Émetteur Sans Fil"
+msgstr "Émetteur sans fil"
 
 #: guide/guide_content.lua:67 registration/machines_api_reg.lua:177
 msgid "Lava Furnace"
-msgstr "Four à Lave"
+msgstr "Four à lave"
 
 #: guide/guide_content.lua:166
 msgid "Logistica Guide"
@@ -418,39 +362,39 @@ msgstr "Guide Logistica"
 
 #: guide/guide_content.lua:175
 msgid "Intro"
-msgstr "Introduction"
+msgstr "Intro"
 
 #: guide/guide_content.lua:176
 msgid "How To:"
-msgstr "Comment :"
+msgstr "Comment faire :"
 
 #: guide/guide_content.lua:177
 msgid "  Get Started: The Lava Furnace"
-msgstr "  Commencer : Le Four à Lave"
+msgstr "Commencez : Le four à lave"
 
 #: guide/guide_content.lua:178
 msgid "  Create a Logistic Network"
-msgstr "  Créer un Réseau Logistique"
+msgstr "Créer un réseau logistique"
 
 #: guide/guide_content.lua:179
 msgid "  Move items from/to other mods"
-msgstr "  Déplacer des objets vers/depuis d'autres mods"
+msgstr "Déplacer des éléments depuis/vers d'autres mods"
 
 #: guide/guide_content.lua:180
 msgid "General Machines:"
-msgstr "Machines Générales :"
+msgstr "Machines générales :"
 
 #: guide/guide_content.lua:181
 msgid "  Network Controller"
-msgstr "  Contrôleur de Réseau"
+msgstr "Contrôleur de réseau"
 
 #: guide/guide_content.lua:182
 msgid "  Access Point"
-msgstr "  Point d'Accès"
+msgstr "Point d'accès"
 
 #: guide/guide_content.lua:183
 msgid "  Optic Cables"
-msgstr "  Câbles Optiques"
+msgstr "Câbles optiques"
 
 #: guide/guide_content.lua:184
 msgid "Storage:"
@@ -458,111 +402,111 @@ msgstr "Stockage :"
 
 #: guide/guide_content.lua:185
 msgid "  Mass Storage"
-msgstr "  Stockage de Masse"
+msgstr "Mémoire de masse"
 
 #: guide/guide_content.lua:186
 msgid "  Tool Chest"
-msgstr "  Coffre à Outils"
+msgstr "Coffre à outils"
 
 #: guide/guide_content.lua:187
 msgid "  Passive Supplier Chest"
-msgstr "  Coffre Fournisseur Passif"
+msgstr "Coffre de fournisseur passif"
 
 #: guide/guide_content.lua:188
 msgid "Moving Items:"
-msgstr "Déplacer des Objets :"
+msgstr "Articles en mouvement :"
 
 #: guide/guide_content.lua:189
 msgid "  Network Importer"
-msgstr "  Importateur de Réseau"
+msgstr "Importateur de réseau"
 
 #: guide/guide_content.lua:190
 msgid "  Request Inserter"
-msgstr "  Inséreur de Demande"
+msgstr "Demande d'insertion"
 
 #: guide/guide_content.lua:191
 msgid "Wireless Network"
-msgstr "Réseau Sans Fil"
+msgstr "Réseau sans fil"
 
 #: guide/guide_content.lua:192
 msgid "  Wireless Transmitter"
-msgstr "  Émetteur Sans Fil"
+msgstr "Émetteur sans fil"
 
 #: guide/guide_content.lua:193
 msgid "  Wireless Receiver"
-msgstr "  Récepteur Sans Fil"
+msgstr "Récepteur sans fil"
 
 #: guide/guide_content.lua:194
 msgid "  Wireless Access Pad"
-msgstr "  Tablette d'Accès Sans Fil"
+msgstr "Bloc d'accès sans fil"
 
 #: guide/guide_content.lua:195
 msgid "  Wireless Upgrader"
-msgstr "  Améliorateur Sans Fil"
+msgstr "Mise à niveau sans fil"
 
 #: guide/guide_content.lua:196
 msgid "Liquid Storage:"
-msgstr "Stockage de Liquide :"
+msgstr "Stockage de liquides :"
 
 #: guide/guide_content.lua:197
 msgid "  Reservoirs"
-msgstr "  Réservoirs"
+msgstr "Réservoirs"
 
 #: guide/guide_content.lua:198
 msgid "  Reservoir Pump"
-msgstr "  Pompe de Réservoir"
+msgstr "Pompe à réservoir"
 
 #: guide/guide_content.lua:199
 msgid "  Bucket Filler"
-msgstr "  Remplisseur de Seaux"
+msgstr "Remplissage de seau"
 
 #: guide/guide_content.lua:200
 msgid "  Bucket Emptier"
-msgstr "  Videur de Seaux"
+msgstr "Videur de seaux"
 
 #: guide/guide_content.lua:201
 msgid "Autocrafting:"
-msgstr "Artisanat Automatique :"
+msgstr "Autocrafting :"
 
 #: guide/guide_content.lua:202
 msgid "  Crafting Supplier"
-msgstr "  Fournisseur d'Artisanat"
+msgstr "Fournisseur d'artisanat"
 
 #: guide/guide_content.lua:203
 msgid "  Autocrafter"
-msgstr "  Artisan Automatique"
+msgstr "Autocrate"
 
 #: guide/guide_content.lua:204
 msgid "Utility Machines:"
-msgstr "Machines Utilitaires :"
+msgstr "Machines utilitaires :"
 
 #: guide/guide_content.lua:205
 msgid "  Vaccuum Chest"
-msgstr "  Coffre Aspirateur"
+msgstr "Coffre à vide"
 
 #: guide/guide_content.lua:206
 msgid "  Lava Furnace Fueler"
-msgstr "  Ravitailleur de Four à Lave"
+msgstr "Combustible pour four à lave"
 
 #: guide/guide_content.lua:207
 msgid "  Cobble Generator"
-msgstr "  Générateur de Pavé"
+msgstr "Générateur de galets"
 
 #: guide/guide_content.lua:208
 msgid "  Trashcan"
-msgstr "  Poubelle"
+msgstr "Poubelle"
 
 #: guide/guide_content.lua:209
 msgid "Machine Upgrades:"
-msgstr "Améliorations de Machine :"
+msgstr "Amélioration des machines :"
 
 #: guide/guide_content.lua:210
 msgid "  Mass Storage Upgrades"
-msgstr "  Améliorations de Stockage de Masse"
+msgstr "Mise à niveau de la mémoire de masse"
 
 #: guide/guide_content.lua:211
 msgid "  Cobble Generator Upgrades"
-msgstr "  Améliorations de Générateur de Pavé"
+msgstr "Améliorations du générateur de cailloux"
 
 #: guide/guide_content.lua:212
 msgid "Tools:"
@@ -570,59 +514,59 @@ msgstr "Outils :"
 
 #: guide/guide_content.lua:213
 msgid "  Hyperspanner"
-msgstr "  Hyperspanner"
+msgstr "Hyperspanner"
 
 #: guide/guide_content.lua:214
 msgid "Items:"
-msgstr "Objets :"
+msgstr "Articles :"
 
 #: guide/guide_content.lua:215
 msgid "  Silverin Crystal"
-msgstr "  Cristal Silverin"
+msgstr "Cristal d'argentine"
 
 #: guide/guide_content.lua:216
 msgid "  Silverin Slice"
-msgstr "  Tranche Silverin"
+msgstr "Tranche d'argentine"
 
 #: guide/guide_content.lua:217
 msgid "  Silverin Circuit"
-msgstr "  Circuit Silverin"
+msgstr "Circuit de l'argentine"
 
 #: guide/guide_content.lua:218
 msgid "  Silverin Mirror Box"
-msgstr "  Boîte Miroir Silverin"
+msgstr "Boîte à miroir en argentine"
 
 #: guide/guide_content.lua:219
 msgid "  Silverin Plate"
-msgstr "  Plaque Silverin"
+msgstr "Plaque d'argentine"
 
 #: guide/guide_content.lua:220
 msgid "  Compression Tank"
-msgstr "  Réservoir de Compression"
+msgstr "Réservoir de compression"
 
 #: guide/guide_content.lua:221
 msgid "  Photonizer/Reverse Polarity"
-msgstr "  Photoniseur/Polarité Inversée"
+msgstr "Photoniseur/polarité inversée"
 
 #: guide/guide_content.lua:222
 msgid "  Wave Function Maintainer"
-msgstr "  Mainteneur de Fonction d'Onde"
+msgstr "Mainteneur de la fonction d'onde"
 
 #: guide/guide_content.lua:223
 msgid "  Wireless Crystal"
-msgstr "  Cristal Sans Fil"
+msgstr "Cristal sans fil"
 
 #: guide/guide_content.lua:224
 msgid "  Wireless Antenna"
-msgstr "  Antenne Sans Fil"
+msgstr "Antenne sans fil"
 
 #: guide/guide_content.lua:225
 msgid "Misc:"
-msgstr "Divers :"
+msgstr "Divers"
 
 #: guide/guide_content.lua:226
 msgid "  Server Settings"
-msgstr "  Paramètres Serveur"
+msgstr "Paramètres du serveur"
 
 #: guide/guide_content.lua:234
 msgid "Intro to Logistica"
@@ -630,81 +574,79 @@ msgstr "Introduction à Logistica"
 
 #: guide/guide_content.lua:241
 msgid "Getting started with Logistica"
-msgstr "Commencer avec Logistica"
+msgstr "Démarrer avec Logistica"
 
 #: guide/guide_content.lua:249
 msgid "Create a Logistic Network"
-msgstr "Créer un Réseau Logistique"
+msgstr "Créer un réseau logistique"
 
 #: guide/guide_content.lua:256
 msgid "Moving items from/to other mod's machines or storage"
-msgstr "Déplacer des objets vers/depuis les machines ou stockages d'autres mods"
+msgstr "Déplacement d'articles de/vers les machines ou le stockage d'autres mods"
 
 #: guide/guide_content.lua:265
 msgid "Network Controller"
-msgstr "Contrôleur de Réseau"
+msgstr "Contrôleur de réseau"
 
-#: guide/guide_content.lua:272 logic/access_point_formspec.lua:290
 #: registration/machines_api_reg.lua:10
 msgid "Access Point"
-msgstr "Point d'Accès"
+msgstr "Point d'accès"
 
 #: guide/guide_content.lua:279 guide/guide_content.lua:305
 msgid "Optic cables"
 msgstr "Câbles optiques"
 
-#: guide/guide_content.lua:287 guide/guide_content.lua:312
 #: logic/synchronizer.lua:345 registration/machines_api_reg.lua:390
 msgid "Wireless Upgrader"
-msgstr "Améliorateur Sans Fil"
+msgstr "Mise à niveau sans fil"
 
 #: guide/guide_content.lua:321
 msgid "Network Importer"
-msgstr "Importateur de Réseau"
+msgstr "Importateur de réseau"
 
 #: guide/guide_content.lua:328
 msgid "Request Inserter"
-msgstr "Inséreur de Demande"
+msgstr "Demande d'insertion"
 
 #: guide/guide_content.lua:337
 msgid "The Wireless Access Pad"
-msgstr "La Tablette d'Accès Sans Fil"
+msgstr "Le clavier d'accès sans fil"
 
 #: guide/guide_content.lua:363
 msgid "Liquid Reservoirs"
-msgstr "Réservoirs de Liquide"
+msgstr "Réservoirs de liquide"
 
 #: guide/guide_content.lua:371
 msgid "Resevoir Pump"
-msgstr "Pompe de Réservoir"
+msgstr "Pompe de réalimentation"
 
 #: guide/guide_content.lua:379 registration/machines_api_reg.lua:31
 msgid "Bucket Emptier"
-msgstr "Videur de Seaux"
+msgstr "Videur de seaux"
 
 #: guide/guide_content.lua:387 registration/machines_api_reg.lua:41
 msgid "Bucket Filler"
-msgstr "Remplisseur de Seaux"
+msgstr "Remplissage de seau"
 
 #: guide/guide_content.lua:397
 msgid "Crafting Supplierr"
-msgstr "Fournisseur d'Artisanat"
+msgstr "Fournisseur d'artisanat"
 
 #: guide/guide_content.lua:404 registration/machines_api_reg.lua:23
 msgid "Autocrafter"
-msgstr "Artisan Automatique"
+msgstr "Autocrate"
 
 #: guide/guide_content.lua:413
 msgid "Vaccuum Chest"
-msgstr "Coffre Aspirateur"
+msgstr "Coffre à vide"
 
 #: guide/guide_content.lua:420 registration/machines_api_reg.lua:204
 msgid "Lava Furnace Fueler"
-msgstr "Ravitailleur de Four à Lave"
+msgstr "Combustible pour four à lave"
 
 #: guide/guide_content.lua:428
 msgid "Cobble Generator"
-msgstr "Générateur de Pavé"
+msgstr "Générateur de galets"
 
 #: guide/guide_content.lua:436 registration/machines_api_reg.lua:283
 msgid "Trashcan"
@@ -712,11 +654,11 @@ msgstr "Poubelle"
 
 #: guide/guide_content.lua:445
 msgid "Mass Storage Upgrades"
-msgstr "Améliorations de Stockage de Masse"
+msgstr "Mise à niveau de la mémoire de masse"
 
 #: guide/guide_content.lua:453
 msgid "Cobble Generator Upgrades"
-msgstr "Améliorations de Générateur de Pavé"
+msgstr "Améliorations du générateur de cailloux"
 
 #: guide/guide_content.lua:463
 msgid "Hyperspanner"
@@ -724,11 +666,11 @@ msgstr "Hyperspanner"
 
 #: guide/guide_content.lua:472 item/craft_item_nodes.lua:27
 msgid "Silverin Crystal"
-msgstr "Cristal Silverin"
+msgstr "Cristal d'argentine"
 
 #: guide/guide_content.lua:480
 msgid "Silvrin Silce"
-msgstr "Tranche Silvrin"
+msgstr "Silvrin Silce"
 
 #: guide/guide_content.lua:488
 msgid "Silvrin Circuit"
@@ -736,794 +678,195 @@ msgstr "Circuit Silvrin"
 
 #: guide/guide_content.lua:496
 msgid "Mirror Box"
-msgstr "Boîte Miroir"
+msgstr "Boîte à miroir"
 
 #: guide/guide_content.lua:504
 msgid "Silvrin Plate"
-msgstr "Plaque Silvrin"
+msgstr "Plaque de silvrin"
 
 #: guide/guide_content.lua:512
 msgid "Compression Tank"
-msgstr "Réservoir de Compression"
+msgstr "Réservoir de compression"
 
 #: guide/guide_content.lua:520
 msgid "Photonizer and Reverse Polarity Photonizer"
-msgstr "Photoniseur et Photoniseur à Polarité Inversée"
+msgstr "Photoniseur et photoniseur à inversion de polarité"
 
 #: guide/guide_content.lua:527 item/craft_item.lua:44
 msgid "Wave Function Maintainer"
-msgstr "Mainteneur de Fonction d'Onde"
+msgstr "Mainteneur de la fonction d'onde"
 
 #: guide/guide_content.lua:534
 msgid "Wireless Crystal"
-msgstr "Cristal Sans Fil"
+msgstr "Cristal sans fil"
 
 #: guide/guide_content.lua:542 item/craft_item.lua:68
 msgid "Wireless Antenna"
-msgstr "Antenne Sans Fil"
+msgstr "Antenne sans fil"
 
 #: guide/guide_content.lua:552
 msgid "Server Settings"
-msgstr "Paramètres Serveur"
+msgstr "Paramètres du serveur"
 
 #: guide/guide_desc_howto.lua:5
-msgid ""
-"Logistica is an item storage and transportation mod.\n"
-"\n"
-"It provides easy to use storage that can be used standalone, or connected to "
-"a logistic network.\n"
-"\n"
-"The Logistic network is able to transport items - both taking from other "
-"mod's machines and inserting items into them. The network transportation "
-"works on-demand: only the exact amount of items needed are moved. \n"
-"\n"
-"Logistica also provides a way to access all your storage remotely, from "
-"potentially unlimited distance (configured per server).\n"
-"\n"
-"To see how to get started, click the 'Get Started' entry in the list on the "
-"left.\n"
-msgstr ""
+msgid "Logistica is an item storage and transportation mod.\n\nIt provides easy to use storage that can be used standalone, or connected to a logistic network.\n\nThe Logistic network is able to transport items - both taking from other mod's machines and inserting items into them. The network transportation works on-demand: only the exact amount of items needed are moved. \n\nLogistica also provides a way to access all your storage remotely, from potentially unlimited distance (configured per server).\n\nTo see how to get started, click the 'Get Started' entry in the list on the left.\n"
+msgstr "Logistica est un mod de stockage et de transport d'objets.\NIl fournit un stockage facile à utiliser qui peut être utilisé de façon autonome ou connecté à un réseau logistique.\NLe réseau logistique est capable de transporter des objets - à la fois en les prenant dans les machines d'autres mods et en les y insérant. Le réseau de transport fonctionne à la demande : seule la quantité exacte d'objets nécessaires est déplacée. \NLogistica fournit également un moyen d'accéder à tout votre stockage à distance, à partir d'une distance potentiellement illimitée (configurée par serveur).\NPour voir comment commencer, cliquez sur l'entrée 'Get Started' dans la liste à gauche.\NLa logistique est capable de transporter des objets - à la fois pour les prendre dans les machines d'autres mods et pour les insérer dans celles-ci."
 
 #: guide/guide_desc_howto.lua:17
-msgid ""
-"In order to construct all other Logistica machines, you need a unique "
-"material: Silverin Crystals, which are made in a Lava Furnace.\n"
-"\n"
-"The Lava Furnace can only be fueled by Lava. Place lava buckets in the lower "
-"left slot to fuel it manually, or later construct a Lava Fueler.\n"
-"\n"
-"The Lava Furnace has a built-in recipe guide, accessed by clicking the [?] "
-"button in the upper right corner.\n"
-"\n"
-"There are 2 recipes for Silverin Crystals, one that uses Snow as the "
-"additive, one that uses Ice. Both recipes use 25 milibuckets of Lava (that's "
-"25/1000 of a full bucket) so 1 bucket of fuel can make 40 Silverin "
-"Crystals.\n"
-"\n"
-"The Lava Furnace can also cook regular recipes in half the regular cooking "
-"time, but at the cost of using a bit of lava. For normal items it uses 5 "
-"milibuckets (0.005 buckets) of lava per second of cooking time.\n"
-msgstr ""
+msgid "In order to construct all other Logistica machines, you need a unique material: Silverin Crystals, which are made in a Lava Furnace.\n\nThe Lava Furnace can only be fueled by Lava. Place lava buckets in the lower left slot to fuel it manually, or later construct a Lava Fueler.\n\nThe Lava Furnace has a built-in recipe guide, accessed by clicking the [?] button in the upper right corner.\n\nThere are 2 recipes for Silverin Crystals, one that uses Snow as the additive, one that uses Ice. Both recipes use 25 milibuckets of Lava (that's 25/1000 of a full bucket) so 1 bucket of fuel can make 40 Silverin Crystals.\n\nThe Lava Furnace can also cook regular recipes in half the regular cooking time, but at the cost of using a bit of lava. For normal items it uses 5 milibuckets (0.005 buckets) of lava per second of cooking time.\n"
+msgstr "Pour construire toutes les autres machines Logistica, vous avez besoin d'un matériau unique : Les cristaux d'argentin, qui sont fabriqués dans un four à lave. Le four à lave ne peut être alimenté que par de la lave. Placez des seaux de lave dans l'emplacement en bas à gauche pour l'alimenter manuellement, ou construisez plus tard un Combustible de lave.\N-Le Four à lave a un guide de recettes intégré, accessible en cliquant sur le bouton [ ?] dans le coin supérieur droit.\NIl y a 2 recettes pour les Cristaux d'argentin, l'une qui utilise la Neige comme additif, l'autre qui utilise la Glace. Les deux recettes utilisent 25 milibuckets de lave (soit 25/1000 d'un seau plein), donc 1 seau de combustible peut produire 40 cristaux d'argentine. \N-Le four à lave peut également cuire des recettes normales en moitié moins de temps, mais au prix de l'utilisation d'un peu de lave. Pour les objets normaux, il utilise 5 milibuckets (0,005 seau) de lave par seconde de cuisson."
 
 #: guide/guide_desc_howto.lua:29
-msgid ""
-"You can use all storages as stand-alone nodes. \n"
-"\n"
-"However if you want to access all your storage from one place OR you want to "
-"import items from other machines or distribute items to other machines, you "
-"need to create a Logistic Network and connect your storages to it.\n"
-"\n"
-"To create a Logistic Network you need a Network Controller (click button "
-"above for more info). A network can have at most 1 Network Controller, "
-"trying to connect more will disable the newly connected ones.\n"
-"\n"
-"Once you have a Network Controller, use Optic Cables to connect the "
-"controller to all machines: storage, injectors, importers, etc can all be "
-"connected to a network. There are only a few machines that are not network "
-"connectable, such as the Autocrafter, but in those cases you can use Network "
-"Importers and Request Inserters to interact with them.\n"
-msgstr ""
+msgid "You can use all storages as stand-alone nodes. \n\nHowever if you want to access all your storage from one place OR you want to import items from other machines or distribute items to other machines, you need to create a Logistic Network and connect your storages to it.\n\nTo create a Logistic Network you need a Network Controller (click button above for more info). A network can have at most 1 Network Controller, trying to connect more will disable the newly connected ones.\n\nOnce you have a Network Controller, use Optic Cables to connect the controller to all machines: storage, injectors, importers, etc can all be connected to a network. There are only a few machines that are not network connectable, such as the Autocrafter, but in those cases you can use Network Importers and Request Inserters to interact with them.\n"
+msgstr "Vous pouvez utiliser tous les stockages comme des nœuds autonomes. \Cependant, si vous voulez accéder à tout votre stockage à partir d'un seul endroit OU si vous voulez importer des éléments d'autres machines ou distribuer des éléments à d'autres machines, vous devez créer un Réseau Logistique et y connecter vos stockages.\NPour créer un Réseau Logistique, vous avez besoin d'un Contrôleur de Réseau (cliquez sur le bouton ci-dessus pour plus d'informations). Un réseau peut avoir au maximum 1 contrôleur de réseau, essayer d'en connecter plus désactivera les nouveaux connectés.\NUne fois que vous avez un contrôleur de réseau, utilisez des câbles optiques pour connecter le contrôleur à toutes les machines : stockage, injecteurs, importateurs, etc peuvent tous être connectés à un réseau. Il n'y a que quelques machines qui ne peuvent pas être connectées à un réseau, comme l'Autocrafter, mais dans ces cas-là, vous pouvez utiliser des importateurs de réseau et des inséreurs de demande pour interagir avec eux."
 
 #: guide/guide_desc_howto.lua:39
-msgid ""
-"Logistica allows you to access the inventories of machines or storage from "
-"other mods - both to take and insert items.\n"
-"\n"
-"# Taking Items\n"
-"\n"
-"To take items from machines of other mods, or storage of other mods, you can "
-"use a Network Importer - see button above for details. \n"
-"\n"
-"In the rare case where the network importer cannot access the inventory of a "
-"machine or storage, try to use machines from the other mod to put all the "
-"items in a regular Chest, then use the Network Importer to take items from "
-"the Chest.\n"
-"\n"
-"# Placing Items\n"
-"\n"
-"To place items into other mahcines, ues a Request Inserter - see button "
-"above for details. \n"
-"\n"
-"# What NOT to do\n"
-"\n"
-"Don't try to use Passive Supply chests as outputs of other mod's machines. "
-"Passive Supply chests have no direct compatibility with other mods, and are "
-"just a utility for personal storage.\n"
-msgstr ""
+msgid "Logistica allows you to access the inventories of machines or storage from other mods - both to take and insert items.\n\n# Taking Items\n\nTo take items from machines of other mods, or storage of other mods, you can use a Network Importer - see button above for details. \n\nIn the rare case where the network importer cannot access the inventory of a machine or storage, try to use machines from the other mod to put all the items in a regular Chest, then use the Network Importer to take items from the Chest.\n\n# Placing Items\n\nTo place items into other mahcines, ues a Request Inserter - see button above for details. \n\n# What NOT to do\n\nDon't try to use Passive Supply chests as outputs of other mod's machines. Passive Supply chests have no direct compatibility with other mods, and are just a utility for personal storage.\n"
+msgstr "Logistica vous permet d'accéder aux inventaires des machines ou des entrepôts d'autres mods - à la fois pour prendre et insérer des objets.\N- Prendre des objets\N- Pour prendre des objets dans les machines d'autres mods, ou dans les entrepôts d'autres mods, vous pouvez utiliser un importateur de réseau - voir le bouton ci-dessus pour plus de détails. \NDans les rares cas où l'importateur réseau ne peut pas accéder à l'inventaire d'une machine ou d'un entrepôt, essayez d'utiliser les machines de l'autre mod pour mettre tous les objets dans un coffre normal, puis utilisez l'importateur réseau pour prendre des objets dans le coffre.\N# Placer des objets \NPour placer des objets dans d'autres machines, utilisez un inséreur de requêtes - voir le bouton ci-dessus pour plus d'informations. \N- Ce qu'il ne faut PAS faire\N- N'essayez pas d'utiliser les coffres d'approvisionnement passif comme sorties des machines d'autres mods. Les coffres d'approvisionnement passif n'ont pas de compatibilité directe avec d'autres mods, et ne sont qu'un utilitaire pour le stockage personnel."
 
 #: guide/guide_desc_items.lua:5
-msgid ""
-"Mass Storage upgrades increase the capacity of the Mass Storage machine.\n"
-"\n"
-"There are two types, as seen above.\n"
-"\n"
-"Note that you cannot remove Mass Storage upgrades from a Mass Storage "
-"machine if removing the upgrade will result in insufficient storage "
-"available for any of the stacks stored in the machine.\n"
-msgstr ""
+msgid "Mass Storage upgrades increase the capacity of the Mass Storage machine.\n\nThere are two types, as seen above.\n\nNote that you cannot remove Mass Storage upgrades from a Mass Storage machine if removing the upgrade will result in insufficient storage available for any of the stacks stored in the machine.\n"
+msgstr "Les mises à niveau du stockage de masse augmentent la capacité de la machine de stockage de masse. Il en existe deux types, comme indiqué ci-dessus. Notez que vous ne pouvez pas supprimer les mises à niveau du stockage de masse d'une machine de stockage de masse si la suppression de la mise à niveau entraîne une insuffisance de stockage pour l'une des piles stockées dans la machine."
 
 #: guide/guide_desc_items.lua:13
-msgid ""
-"Cobble Generator Upgrades are added the Cobble Generator Supplier.\n"
-"\n"
-"Each upgrade doubles the rate of cobble output.\n"
-msgstr ""
+msgid "Cobble Generator Upgrades are added the Cobble Generator Supplier.\n\nEach upgrade doubles the rate of cobble output.\n"
+msgstr "Les améliorations du générateur de galets sont ajoutées par le fournisseur du générateur de galets.\nChaque amélioration double le taux de production de galets.\n"
 
 #: guide/guide_desc_items.lua:19
-msgid ""
-"The Wireless Access Pad is a handheld device that allows you to access your "
-"Network Storage from potentially unlimited distance by synchronizing to an "
-"Access Point on your network. (distance may be limited by server settings, "
-"see Server Setting page on the left)\n"
-"\n"
-"The Wireless Access Pad has no relation to the Wireless Transmitter or "
-"Receiver. The Pad only requres an Access Point.\n"
-"\n"
-"The Wireless Access Pad provides the exact same interface as the Access "
-"Point, allowing you to store or retrieve items or liquids.\n"
-"\n"
-"To use a Wireless Access Pad:\n"
-"\n"
-"1. Craft one via the recipe. Tip: the Wireless Crystals are made in a Lava "
-"Furnace.\n"
-"2. Craft a Wireless Upgrader machine, and use it to Upgrade your Wireless "
-"Access Pad as many times as you need (see Wireless Upgrader).\n"
-"3. Sneak + Punch an Access Point with the Wireless Access Pad - if "
-"successful, you will see a short message appear.\n"
-"4. Use the Wireless Access Pad from anywhere within its current range to "
-"open the Access Point and take or store items remotely!\n"
-"\n"
-"If you need more range, just place it in a Wireless Upgrader and repeat the "
-"upgrade process!\n"
-msgstr ""
+msgid "The Wireless Access Pad is a handheld device that allows you to access your Network Storage from potentially unlimited distance by synchronizing to an Access Point on your network. (distance may be limited by server settings, see Server Setting page on the left)\n\nThe Wireless Access Pad has no relation to the Wireless Transmitter or Receiver. The Pad only requres an Access Point.\n\nThe Wireless Access Pad provides the exact same interface as the Access Point, allowing you to store or retrieve items or liquids.\n\nTo use a Wireless Access Pad:\n\n1. Craft one via the recipe. Tip: the Wireless Crystals are made in a Lava Furnace.\n2. Craft a Wireless Upgrader machine, and use it to Upgrade your Wireless Access Pad as many times as you need (see Wireless Upgrader).\n3. Sneak + Punch an Access Point with the Wireless Access Pad - if successful, you will see a short message appear.\n4. Use the Wireless Access Pad from anywhere within its current range to open the Access Point and take or store items remotely!\n\nIf you need more range, just place it in a Wireless Upgrader and repeat the upgrade process!\n"
+msgstr "L'Access Pad sans fil est un appareil portatif qui vous permet d'accéder à votre stockage en réseau à partir d'une distance potentiellement illimitée en vous synchronisant avec un point d'accès de votre réseau. (La distance peut être limitée par les paramètres du serveur, voir la page Paramètres du serveur à gauche). Le boîtier d'accès sans fil n'a rien à voir avec l'émetteur ou le récepteur sans fil. Il ne nécessite qu'un point d'accès.\NLe boîtier d'accès sans fil offre exactement la même interface que le point d'accès, ce qui vous permet de stocker ou de récupérer des objets ou des liquides.\NPour utiliser un boîtier d'accès sans fil :\N1. Fabriquez-en un à l'aide de la recette. Astuce : les cristaux sans fil sont fabriqués dans un four à lave.\N- 2. Fabriquez une machine de mise à niveau sans fil et utilisez-la pour mettre à niveau votre borne d'accès sans fil autant de fois que nécessaire (voir Mise à niveau sans fil).\n3. Sneak + Punch un point d'accès avec le Wireless Access Pad - si vous réussissez, vous verrez un court message apparaître.\N4. Utilisez le boîtier d'accès sans fil de n'importe où dans son rayon d'action actuel pour ouvrir le point d'accès et prendre ou stocker des articles à distance !\NSi vous avez besoin d'un rayon d'action plus important, placez-le simplement dans un amplificateur sans fil et répétez le processus de mise à niveau !\N"
 
 #: guide/guide_desc_items.lua:36
-msgid ""
-"A multipurpose engineering tool.\n"
-"\n"
-"- Use (right-click on PC) it on Logistica nodes to get information about "
-"which network, if any, the node is connected to. This does not use or damage "
-"the Hyperspanner.\n"
-"- Sneak + Use it on a Logistica node to get more information about the "
-"network, if any, to which the machine is connected to.\n"
-"\n"
-"- Combined with a Photonizer or a Photonizer (Reversed Polarity) in the "
-"crafting grid, it will turn one into the other. This does not use or damage "
-"the Hyperspanner.\n"
-msgstr ""
+msgid "A multipurpose engineering tool.\n\n- Use (right-click on PC) it on Logistica nodes to get information about which network, if any, the node is connected to. This does not use or damage the Hyperspanner.\n- Sneak + Use it on a Logistica node to get more information about the network, if any, to which the machine is connected to.\n\n- Combined with a Photonizer or a Photonizer (Reversed Polarity) in the crafting grid, it will turn one into the other. This does not use or damage the Hyperspanner.\n"
+msgstr "Un outil d'ingénierie polyvalent.\N- Utilisez-le (clic droit sur le PC) sur les nœuds Logistica pour obtenir des informations sur le réseau auquel le nœud est connecté, le cas échéant. Cela n'utilise ni n'endommage l'Hyperspanner.\N- Sneak + Utilisez-le sur un nœud Logistica pour obtenir plus d'informations sur le réseau, s'il y en a un, auquel la machine est connectée.\N- Combiné avec un Photoniseur ou un Photoniseur (Polarité inversée) dans la grille d'artisanat, il les transformera l'un en l'autre. Cela n'utilise ni n'endommage l'Hyperspanner."
 
 #: guide/guide_desc_items.lua:45
-msgid ""
-"Silverin Crystals are the base for other craft items, some of which can be "
-"made in the regular crafting grid, some of which require the use of the Lava "
-"Furnace (and are listed in the Lava Furnace's built-in crafting guide).\n"
-"\n"
-"See the Lava Furnace's built-in guide.\n"
-msgstr ""
+msgid "Silverin Crystals are the base for other craft items, some of which can be made in the regular crafting grid, some of which require the use of the Lava Furnace (and are listed in the Lava Furnace's built-in crafting guide).\n\nSee the Lava Furnace's built-in guide.\n"
+msgstr "Les cristaux de silverin sont la base d'autres objets d'artisanat, dont certains peuvent être fabriqués dans la grille d'artisanat normale et d'autres nécessitent l'utilisation du four à lave (et sont répertoriés dans le guide d'artisanat intégré au four à lave)."
 
 #: guide/guide_desc_items.lua:51
-msgid ""
-"8 of them are Made from a single Silverin Crystal, the process can also be "
-"reversed - 8 slices = 1 crystal.\n"
-"\n"
-"They are used in the lava furnace as a basis for a few other crafting "
-"components, which in turn are used in many machines.\n"
-"\n"
-"See the Lava Furnace's built-in guide.\n"
-msgstr ""
+msgid "8 of them are Made from a single Silverin Crystal, the process can also be reversed - 8 slices = 1 crystal.\n\nThey are used in the lava furnace as a basis for a few other crafting components, which in turn are used in many machines.\n\nSee the Lava Furnace's built-in guide.\n"
+msgstr "8 d'entre eux sont fabriqués à partir d'un seul cristal d'argentin, le processus peut également être inversé - 8 tranches = 1 cristal.\NIls sont utilisés dans le four à lave comme base pour quelques autres composants d'artisanat, qui à leur tour sont utilisés dans de nombreuses machines.\NVoir le guide intégré du four à lave.\NIl n'y a pas d'autre solution que d'utiliser un cristal d'argentin."
 
 #: guide/guide_desc_items.lua:59
-msgid ""
-"Made in the Lava Furnace, these circuits are used as basis for many "
-"machines.\n"
-"\n"
-"See the Lava Furnace's built-in guide.\n"
-msgstr ""
+msgid "Made in the Lava Furnace, these circuits are used as basis for many machines.\n\nSee the Lava Furnace's built-in guide.\n"
+msgstr "Fabriqués dans le four à lave, ces circuits servent de base à de nombreuses machines."
 
 #: guide/guide_desc_items.lua:65
-msgid ""
-"A piece of glass surrounded by sliverin crystals, and baked to perfection. "
-"This allows the creation of Wave Function Maintainer, which are in turn, the "
-"basis for all storage.\n"
-"\n"
-"See the Lava Furnace's built-in guide.\n"
-msgstr ""
+msgid "A piece of glass surrounded by sliverin crystals, and baked to perfection. This allows the creation of Wave Function Maintainer, which are in turn, the basis for all storage.\n\nSee the Lava Furnace's built-in guide.\n"
+msgstr "Un morceau de verre entouré de cristaux de sliverin et cuit à la perfection. Cela permet la création de Wave Function Maintainer, qui sont à leur tour la base de tout stockage.\NVoir le guide intégré du Lava Furnace.\N"
 
 #: guide/guide_desc_items.lua:71
-msgid ""
-"Silverin Plates are made in the Lava Furnace using 1 Silverin Crystal as "
-"input and 1 Steel Ingot as additive. See furnace's built-in recipe guide for "
-"details.\n"
-"\n"
-"In addition to being used for the construction of almost all machines, the "
-"Silverin Plate can be placed as a node.\n"
-"\n"
-"3 Silverin Plates can also make a Silverin Block, which is a purely "
-"decorateive item. This crafting process is reversible.\n"
-"\n"
-"See the Lava Furnace's built-in guide.\n"
-msgstr ""
+msgid "Silverin Plates are made in the Lava Furnace using 1 Silverin Crystal as input and 1 Steel Ingot as additive. See furnace's built-in recipe guide for details.\n\nIn addition to being used for the construction of almost all machines, the Silverin Plate can be placed as a node.\n\n3 Silverin Plates can also make a Silverin Block, which is a purely decorateive item. This crafting process is reversible.\n\nSee the Lava Furnace's built-in guide.\n"
+msgstr "Les plaques d'argentine sont fabriquées dans le four à lave en utilisant 1 cristal d'argentine et 1 lingot d'acier comme additif. Voir le guide des recettes intégré au four pour plus de détails.\NEn plus d'être utilisée pour la construction de presque toutes les machines, la plaque d'argentine peut être placée comme un nœud.\N3 plaques d'argentine peuvent également créer un bloc d'argentine, qui est un objet purement décoratif. Ce processus d'artisanat est réversible.\NVoir le guide d'intégration de la Fournaise de lave.\NLa Fournaise de lave est un objet de décoration."
 
 #: guide/guide_desc_items.lua:81
-msgid ""
-"A tank capable of compressing liquids when used in the right machine. Used "
-"for creation of Reservoirs.\n"
-msgstr ""
+msgid "A tank capable of compressing liquids when used in the right machine. Used for creation of Reservoirs.\n"
+msgstr "Réservoir capable de comprimer des liquides lorsqu'il est utilisé dans la bonne machine. Utilisé pour la création de réservoirs."
 
 #: guide/guide_desc_items.lua:85
-msgid ""
-"The regular Photonizer is made in normal crafting grid from other materials, "
-"but can also be made from a Reversed Polarity Photonizer using a "
-"Hyperspanner by combining them in the grid.\n"
-"\n"
-"The Photonizer (Reverse Polarity) is only made by comibing a hyperspanner "
-"and a normal Photonizer in the crafting grid.\n"
-"\n"
-"The Photonizer's job is to convert matter, aka items, into wave packets "
-"which can then be transmitted over the Logistic Network, and stored in "
-"machines. This is why the Photonizer is a vital component in any machine "
-"that can add items to the Logistics Network.\n"
-"\n"
-"The Revered Polarity Photonizer does the opposite - it takes wave packets "
-"and converts them into items. Thus it is used in many machines that are "
-"capable of taking items from the Logistics Network.\n"
-msgstr ""
+msgid "The regular Photonizer is made in normal crafting grid from other materials, but can also be made from a Reversed Polarity Photonizer using a Hyperspanner by combining them in the grid.\n\nThe Photonizer (Reverse Polarity) is only made by comibing a hyperspanner and a normal Photonizer in the crafting grid.\n\nThe Photonizer's job is to convert matter, aka items, into wave packets which can then be transmitted over the Logistic Network, and stored in machines. This is why the Photonizer is a vital component in any machine that can add items to the Logistics Network.\n\nThe Revered Polarity Photonizer does the opposite - it takes wave packets and converts them into items. Thus it is used in many machines that are capable of taking items from the Logistics Network.\n"
+msgstr "Le Photoniseur normal est fabriqué dans la grille d'artisanat normale à partir d'autres matériaux, mais il peut également être fabriqué à partir d'un Photoniseur à Polarité Inversée en utilisant un Hyperspanner en les combinant dans la grille. Le Photoniseur (Polarité Inversée) n'est fabriqué qu'en combinant un Hyperspanner et un Photoniseur normal dans la grille d'artisanat. Le travail du Photoniseur est de convertir la matière, c'est-à-dire les objets, en paquets d'ondes qui peuvent ensuite être transmis sur le Réseau Logistique et stockés dans les machines. C'est pourquoi le Photoniseur est un composant essentiel de toute machine capable d'ajouter des objets au Réseau Logistique.\NLe Photoniseur de Polarité Révérée fait le contraire - il prend des paquets d'ondes et les convertit en objets. Il est donc utilisé dans de nombreuses machines capables de prélever des objets sur le Réseau Logistique.\N- Le Photoniseur à Polarité Révérée fait le contraire - il prend des paquets d'ondes et les convertit en objets."
 
 #: guide/guide_desc_items.lua:95
-msgid ""
-"The Wave Function Maintainer is a component that can \"store\" (aka "
-"maintain) wave packets indefinitely, when used in the right machine. This "
-"allows photonized matter to essentially be stored in it.\n"
-msgstr ""
+msgid "The Wave Function Maintainer is a component that can \"store\" (aka maintain) wave packets indefinitely, when used in the right machine. This allows photonized matter to essentially be stored in it.\n"
+msgstr "Le mainteneur de fonction d'onde est un composant qui peut "stocker" (ou maintenir) des paquets d'ondes indéfiniment, lorsqu'il est utilisé dans la bonne machine. Cela permet à la matière photonisée d'y être essentiellement stockée."
 
 #: guide/guide_desc_items.lua:99
-msgid ""
-"The wireless crystal is an essential component to crafting the Wireless "
-"Access Pad and Wireless Upgrader. It is made in the Lava Furnace.\n"
-"\n"
-"See furnace's built-in recipe guide for details\n"
-msgstr ""
+msgid "The wireless crystal is an essential component to crafting the Wireless Access Pad and Wireless Upgrader. It is made in the Lava Furnace.\n\nSee furnace's built-in recipe guide for details\n"
+msgstr "Le cristal sans fil est un composant essentiel pour fabriquer le Wireless Access Pad et le Wireless Upgrader. Il est fabriqué dans le four à lave. Voir le guide des recettes intégré au four pour plus de détails."
 
 #: guide/guide_desc_items.lua:105
-msgid ""
-"The Wireless Antenna is an essential component to crafting the Wireless "
-"Transmitter and Wireless Receiver. It is made on the regular crafting grid "
-"using the recipe above.\n"
-msgstr ""
+msgid "The Wireless Antenna is an essential component to crafting the Wireless Transmitter and Wireless Receiver. It is made on the regular crafting grid using the recipe above.\n"
+msgstr "L'antenne sans fil est un composant essentiel pour fabriquer l'émetteur et le récepteur sans fil. Elle est fabriquée sur la grille d'artisanat normale à l'aide de la recette ci-dessus."
 
 #: guide/guide_desc_machines.lua:5
-msgid ""
-"A Controller is the node required to create an active network. Exactly one "
-"controller can be connected to a network, and removing it will disconnect "
-"all other devices connected to the network.\n"
-"\n"
-"Controllers allow you to rename the network, but this is for visual "
-"identification only, and naming two networks with the same name will not "
-"connect them together.\n"
-msgstr ""
+msgid "A Controller is the node required to create an active network. Exactly one controller can be connected to a network, and removing it will disconnect all other devices connected to the network.\n\nControllers allow you to rename the network, but this is for visual identification only, and naming two networks with the same name will not connect them together.\n"
+msgstr "Un contrôleur est le nœud nécessaire pour créer un réseau actif. Un seul contrôleur peut être connecté à un réseau, et sa suppression déconnectera tous les autres appareils connectés au réseau. Les contrôleurs vous permettent de renommer le réseau, mais il s'agit d'une identification visuelle uniquement, et le fait de donner le même nom à deux réseaux ne les connectera pas entre eux."
 
 #: guide/guide_desc_machines.lua:11
-msgid ""
-"The Access Point provides easy access to all Storage devices connected to "
-"the Network.\n"
-"\n"
-"It can both take and insert items into the network's storage. It provides a "
-"Crafting Grid built into it for convenience.\n"
-"\n"
-"You can also access an Access Point and all its features remotely using a "
-"Wireless Access Pad synced to the Access Point.\n"
-"\n"
-"# Searching by text\n"
-"\n"
-"You can enter a search term to show items that term.\n"
-"\n"
-"A special search can be done by adding the groups: prefix at the start. For "
-"example groups:flower will match only items that have flower group set, thus "
-"it will display all flowers added by any mod.\n"
-"\n"
-"# Filtering\n"
-"\n"
-"You can filter items by:\n"
-"\n"
-"All items, Blocks only, Craft-items only, Tools only, Lights only\n"
-"\n"
-"# Sorting\n"
-"\n"
-"Items can also sorted by\n"
-"\n"
-"- Name: alphabetically sorted by the item's localized description to sort\n"
-"- Mod: alphabetically sorted by the item's technical name that is prefixed "
-"with the mod\n"
-"- Count: sorts by total item count, with largest first.\n"
-"- Wear: Sorts by item wear, with most uses remaining first (best used when "
-"filtering for Tools only)\n"
-"\n"
-"# Use Metadata button\n"
-"\n"
-"Some items, usually tools, have other information stored in them, like wear, "
-"descriptions or more complex metadata.\n"
-"\n"
-"If \"Use Metadata\" is ON, the Access Point will display these items "
-"individually. If it's OFF, the Access Point will group items with the same "
-"name, but different metadata into 1 stack. When taking such an item when Use "
-"Metadata is OFF, you will still receive an actual item with the correct wear "
-"and metadata, but it will be picked at random from the network.\n"
-"\n"
-"# Liquid Storage\n"
-"\n"
-"Below the Metadata button is a small section where the Access Point will "
-"show any Reservoirs connected to the network.\n"
-"\n"
-"You can use the two arrows to cycle through all liquids (if there are any).\n"
-"To deposit a liquid, just put a full bucket into the slot below the liquid "
-"image. It does not matter which liquid is selected for this, the Access "
-"Point will attempt to deposit it into the fullest applicable Reservoir, or "
-"assign the next smallest empty reservoir, if one is available.\n"
-"To withdraw a liquid, first select which liquid you want, then put an Empty "
-"Bucket into the slot below. The liquid will be taken from the least-full "
-"Reservoir holding that liquid type on the Network.\n"
-"\n"
-"# Taking items from the Network\n"
-"\n"
-"The Access Point shows a snapshot of available items, or items supplied by "
-"crafting suppliers. When you try to take an item, the Access Point makes a "
-"real request to the network. If the items are no longer available, you won't "
-"receive anything. In most cases the Access Point will try to show an error "
-"message informing what went wrong.\n"
-msgstr ""
+msgid "The Access Point provides easy access to all Storage devices connected to the Network.\n\nIt can both take and insert items into the network's storage. It provides a Crafting Grid built into it for convenience.\n\nYou can also access an Access Point and all its features remotely using a Wireless Access Pad synced to the Access Point.\n\n# Searching by text\n\nYou can enter a search term to show items that term.\n\nA special search can be done by adding the groups: prefix at the start. For example groups:flower will match only items that have flower group set, thus it will display all flowers added by any mod.\n\n# Filtering\n\nYou can filter items by:\n\nAll items, Blocks only, Craft-items only, Tools only, Lights only\n\n# Sorting\n\nItems can also sorted by\n\n- Name: alphabetically sorted by the item's localized description to sort\n- Mod: alphabetically sorted by the item's technical name that is prefixed with the mod\n- Count: sorts by total item count, with largest first.\n- Wear: Sorts by item wear, with most uses remaining first (best used when filtering for Tools only)\n\n# Use Metadata button\n\nSome items, usually tools, have other information stored in them, like wear, descriptions or more complex metadata.\n\nIf \"Use Metadata\" is ON, the Access Point will display these items individually. If it's OFF, the Access Point will group items with the same name, but different metadata into 1 stack. When taking such an item when Use Metadata is OFF, you will still receive an actual item with the correct wear and metadata, but it will be picked at random from the network.\n\n# Liquid Storage\n\nBelow the Metadata button is a small section where the Access Point will show any Reservoirs connected to the network.\n\nYou can use the two arrows to cycle through all liquids (if there are any).\nTo deposit a liquid, just put a full bucket into the slot below the liquid image. It does not matter which liquid is selected for this, the Access Point will attempt to deposit it into the fullest applicable Reservoir, or assign the next smallest empty reservoir, if one is available.\nTo withdraw a liquid, first select which liquid you want, then put an Empty Bucket into the slot below. The liquid will be taken from the least-full Reservoir holding that liquid type on the Network.\n\n# Taking items from the Network\n\nThe Access Point shows a snapshot of available items, or items supplied by crafting suppliers. When you try to take an item, the Access Point makes a real request to the network. If the items are no longer available, you won't receive anything. In most cases the Access Point will try to show an error message informing what went wrong.\n"
+msgstr "Le point d'accès permet d'accéder facilement à tous les dispositifs de stockage connectés au réseau.\NIl peut à la fois prendre et insérer des éléments dans le stockage du réseau. Il fournit une grille d'artisanat intégrée pour plus de commodité.\NVous pouvez également accéder à un Point d'Accès et à toutes ses fonctionnalités à distance en utilisant un Access Pad sans fil synchronisé avec le Point d'Accès.\N# Recherche par texte\NVous pouvez entrer un terme de recherche pour afficher les éléments correspondant à ce terme.\NUne recherche spéciale peut être effectuée en ajoutant le préfixe groups : au début du mot. Par exemple, groups:flower ne correspondra qu'aux éléments dont le groupe flower est défini, ce qui permettra d'afficher toutes les fleurs ajoutées par n'importe quel mod.\Filtrage Vous pouvez filtrer les éléments par : Tous les éléments, Blocs uniquement, Articles d'artisanat uniquement, Outils uniquement, Lumières uniquement. Tri Les éléments peuvent également être triés par : Nom : trié alphabétiquement par la description localisée de l'élément à trier Mod : trié alphabétiquement par le nom technique de l'élément préfixé par le mod Compte : trié par le nombre total d'éléments, en commençant par le plus grand.\N- Usure : Trie en fonction de l'usure de l'article, le plus grand nombre d'utilisations restant en premier (à utiliser lors du filtrage des outils uniquement). \N# Bouton Utiliser les métadonnées \NCertains articles, généralement les outils, contiennent d'autres informations, comme l'usure, des descriptions ou des métadonnées plus complexes. \NSi \N "Utiliser les métadonnées" est activé, le point d'accès affichera ces articles individuellement. S'il est désactivé, le point d'accès regroupera les objets portant le même nom, mais ayant des métadonnées différentes, en une seule pile. Lorsque vous prenez un tel objet alors que l'option " Use Metadata " est désactivée, vous recevrez toujours un objet réel avec l'usure et les métadonnées correctes, mais il sera choisi au hasard sur le réseau.\N- Stockage des liquides\N- Sous le bouton " Metadata " se trouve une petite section dans laquelle le point d'accès affiche tous les réservoirs connectés au réseau.\N- Vous pouvez utiliser les deux flèches pour faire défiler tous les liquides (s'il y en a).\N-Pour déposer un liquide, il suffit de placer un seau plein dans la fente située en dessous de l'image du liquide. Peu importe le liquide sélectionné, le point d'accès tentera de le déposer dans le réservoir le plus plein ou d'assigner le plus petit réservoir vide suivant, s'il y en a un de disponible.\NPour retirer un liquide, sélectionnez d'abord le liquide que vous voulez, puis placez un seau vide dans la fente située en dessous. Le liquide sera prélevé dans le réservoir le moins rempli du réseau qui contient ce type de liquide.\N# Prendre des objets sur le réseau\N- Le point d'accès affiche un aperçu des objets disponibles ou des objets fournis par les fournisseurs d'artisanat. Lorsque vous essayez de prendre un objet, le point d'accès envoie une demande réelle au réseau. Si les objets ne sont plus disponibles, vous ne recevrez rien. Dans la plupart des cas, le point d'accès essaiera d'afficher un message d'erreur indiquant ce qui n'a pas fonctionné."
 
 #: guide/guide_desc_machines.lua:58
-msgid ""
-"# Regular Cables\n"
-"\n"
-"Cables are used to connect a controller to other machines, allowing the "
-"establishing of a network.\n"
-"\n"
-"Placing a cable that bridges two different active networks will burn that "
-"cable. Burned cables can simply be picked up, and return normal cables.\n"
-"\n"
-"Note that Cables are the only way to extend a network's reach - meaning, "
-"machines will not carry the network connection through them. If you connect "
-"a network cable to one side of a machine, and then place a 2nd cable on the "
-"other side of the machine, the 2nd cable will not carry the network "
-"connection.\n"
-"\n"
-"# Toggleable Cables\n"
-"The Toggleable Cable works exactly like a regular cable, but can be right-"
-"clicked (aka used) to disconnect it from all other surrounding cables or "
-"machines. This allows you to make parts of your network easy to disconnect "
-"when you don't want to use them (For example, a disconnecting an auto-"
-"furnace setup when you don't need it anymore)\n"
-"\n"
-"#Embedded Cables\n"
-"The Embedded Cable is a full block that acts like a regular Optic Cable, "
-"allowing cables to be run through walls without leaving visible gaps.\n"
-msgstr ""
+msgid "# Regular Cables\n\nCables are used to connect a controller to other machines, allowing the establishing of a network.\n\nPlacing a cable that bridges two different active networks will burn that cable. Burned cables can simply be picked up, and return normal cables.\n\nNote that Cables are the only way to extend a network's reach - meaning, machines will not carry the network connection through them. If you connect a network cable to one side of a machine, and then place a 2nd cable on the other side of the machine, the 2nd cable will not carry the network connection.\n\n# Toggleable Cables\nThe Toggleable Cable works exactly like a regular cable, but can be right-clicked (aka used) to disconnect it from all other surrounding cables or machines. This allows you to make parts of your network easy to disconnect when you don't want to use them (For example, a disconnecting an auto-furnace setup when you don't need it anymore)\n\n#Embedded Cables\nThe Embedded Cable is a full block that acts like a regular Optic Cable, allowing cables to be run through walls without leaving visible gaps.\n"
+msgstr "# Câbles normaux Les câbles sont utilisés pour connecter un contrôleur à d'autres machines, ce qui permet d'établir un réseau.\NLa pose d'un câble qui relie deux réseaux actifs différents brûlera ce câble. Les câbles brûlés peuvent simplement être ramassés et redevenir des câbles normaux.\NNotez que les câbles sont le seul moyen d'étendre la portée d'un réseau - ce qui signifie que les machines ne transporteront pas la connexion réseau à travers eux. Si vous connectez un câble réseau d'un côté d'une machine, et que vous placez un second câble de l'autre côté de la machine, le second câble ne transmettra pas la connexion réseau.\N- Câbles basculants\NLe câble basculant fonctionne exactement comme un câble normal, mais peut être cliqué avec le bouton droit de la souris (alias utilisé) pour le déconnecter de tous les autres câbles ou machines environnants. Cela vous permet de déconnecter facilement certaines parties de votre réseau lorsque vous ne souhaitez pas les utiliser (par exemple, déconnecter une installation de chauffage automatique lorsque vous n'en avez plus besoin)\N- Câbles incorporés\N- Le câble incorporé est un bloc complet qui agit comme un câble optique normal, permettant aux câbles de passer à travers les murs sans laisser d'espace visible.\N- Le câble incorporé est un bloc complet qui agit comme un câble optique normal, permettant aux câbles de passer à travers les murs sans laisser d'espace visible.\N- Le câble incorporé est un bloc complet qui agit comme un câble optique normal."
 
 #: guide/guide_desc_machines.lua:74
-msgid ""
-"The Wireless Upgrader is a machine used to upgrade the Wireless Access Pad's "
-"range.\n"
-"\n"
-"To upgrade a Wireless Access Pad:\n"
-"\n"
-"1. Craft the Wireless Upgrader\n"
-"2. In the Wireless Upgrader put the Wireless Access Pad at the bottom slot, "
-"and 1 Wireless crystal in each top slot (see screenshot above)\n"
-"3. You'll see two waves appear, one blue, one orange. The Orange wave is "
-"controlled by the buttons around the crystals.\n"
-"4. Use the buttons around each Crystal to make the orange wave match the "
-"blue wave.\n"
-"5. When they match, the wave turns Green and an Upgrade button appears.\n"
-"6. Press the Upgrade button to increase your Wireless Access Pad's range.\n"
-"\n"
-"The Wireless Upgrader also has a \"Hard Mode\" toggleable via settings - see "
-"the \"Server Settings\" page on the left for info.\n"
-msgstr ""
+msgid "The Wireless Upgrader is a machine used to upgrade the Wireless Access Pad's range.\n\nTo upgrade a Wireless Access Pad:\n\n1. Craft the Wireless Upgrader\n2. In the Wireless Upgrader put the Wireless Access Pad at the bottom slot, and 1 Wireless crystal in each top slot (see screenshot above)\n3. You'll see two waves appear, one blue, one orange. The Orange wave is controlled by the buttons around the crystals.\n4. Use the buttons around each Crystal to make the orange wave match the blue wave.\n5. When they match, the wave turns Green and an Upgrade button appears.\n6. Press the Upgrade button to increase your Wireless Access Pad's range.\n\nThe Wireless Upgrader also has a \"Hard Mode\" toggleable via settings - see the \"Server Settings\" page on the left for info.\n"
+msgstr "Le Wireless Upgrader est une machine utilisée pour améliorer la portée du Wireless Access Pad.\NPour améliorer un Wireless Access Pad:\N1. Réaliser l'appareil de mise à niveau sans fil (Wireless Upgrader).\N2. Dans le Wireless Upgrader, placez le Wireless Access Pad dans l'emplacement du bas et un cristal sans fil dans chaque emplacement du haut (voir la capture d'écran ci-dessus)\n3. Vous verrez apparaître deux vagues, l'une bleue, l'autre orange. La vague orange est contrôlée par les boutons situés autour des cristaux.\N4. Utilisez les boutons autour de chaque cristal pour que la vague orange corresponde à la vague bleue.\N- 5. Lorsqu'elles correspondent, la vague devient verte et un bouton Amélioration apparaît.\N6. Appuyez sur le bouton de mise à niveau pour augmenter la portée de votre Wireless Access Pad.\NLe Wireless Upgrader dispose également d'un "Hard Mode" (mode dur) qui peut être activé via les paramètres - voir la page "Server Settings" sur la gauche pour plus d'informations.\NLa page "Server Settings" sur la gauche pour plus d'informations."
 
 #: guide/guide_desc_machines.lua:89
-msgid ""
-"Mass Storage node provide 1024 item storage for up to 8 different item types "
-"by default. This capacity can be upgraded with 4 upgrade lots and 2 "
-"different upgrades. Mass Storage needs to be configured with the exact items "
-"to store.\n"
-"\n"
-"You can collectively access all Mass Storage on a particular network from an "
-"Access Point/Wireless Access Pad.\n"
-"\n"
-"- Can be dug and keeps its Inventory when placed again, allowing easy moving "
-"of stored items\n"
-"- Can be upgraded to increase inventory size, up to maximum of 5120 items "
-"per slot\n"
-"- Select Front Image: Selects a stored node to display on the front of the "
-"storage node\n"
-"- Can Reserve a number of items per slot: Reserved items won't be taken by "
-"other machines on the network\n"
-"- Can quickly deposit items by punching it with a stack or sneak-punching it "
-"for deposit all stack items from your inventory\n"
-"- Pull items on/off: When On this storage will actively try to pull from any "
-"Supplier machines (e.g. Passive Supply Chests, Cobblegen Suppliers), except "
-"Crafting Suppliers."
-msgstr ""
+msgid "Mass Storage node provide 1024 item storage for up to 8 different item types by default. This capacity can be upgraded with 4 upgrade lots and 2 different upgrades. Mass Storage needs to be configured with the exact items to store.\n\nYou can collectively access all Mass Storage on a particular network from an Access Point/Wireless Access Pad.\n\n- Can be dug and keeps its Inventory when placed again, allowing easy moving of stored items\n- Can be upgraded to increase inventory size, up to maximum of 5120 items per slot\n- Select Front Image: Selects a stored node to display on the front of the storage node\n- Can Reserve a number of items per slot: Reserved items won't be taken by other machines on the network\n- Can quickly deposit items by punching it with a stack or sneak-punching it for deposit all stack items from your inventory\n- Pull items on/off: When On this storage will actively try to pull from any Supplier machines (e.g. Passive Supply Chests, Cobblegen Suppliers), except Crafting Suppliers."
+msgstr "Le nœud de stockage de masse permet de stocker 1024 articles pour 8 types d'articles différents par défaut. Cette capacité peut être augmentée grâce à 4 lots de mise à niveau et 2 mises à niveau différentes. Le stockage de masse doit être configuré avec les articles exacts à stocker. Vous pouvez accéder collectivement à tous les stockages de masse d'un réseau particulier à partir d'un point d'accès ou d'un clavier d'accès sans fil : Sélectionne un nœud stocké à afficher sur le devant du nœud de stockage. Peut réserver un certain nombre d'objets par emplacement : Les objets réservés ne seront pas pris par d'autres machines sur le réseau. Il est possible de déposer rapidement des objets en le perforant avec une pile ou en le perforant furtivement pour déposer tous les objets de la pile de votre inventaire : Lorsqu'il est activé, ce stockage essaiera activement de tirer des objets de n'importe quelle machine fournisseur (par exemple, les coffres d'approvisionnement passif, les fournisseurs de Cobblegen), à l'exception des fournisseurs d'artisanat."
 
 #: guide/guide_desc_machines.lua:101
-msgid ""
-"The Tool Chest provides a large number of storage slots -- but it can only "
-"store tools (specifically, items that have a max stack size of 1). The Tool "
-"Chest is also accessed by Requesters to provide items. Tool Chest cannot be "
-"dug while it contains items (unlike Mass Storage, which will keep its "
-"inventory)\n"
-"\n"
-"You can also choose to sort the stored tools by Name, Mod or Wear.\n"
-msgstr ""
+msgid "The Tool Chest provides a large number of storage slots -- but it can only store tools (specifically, items that have a max stack size of 1). The Tool Chest is also accessed by Requesters to provide items. Tool Chest cannot be dug while it contains items (unlike Mass Storage, which will keep its inventory)\n\nYou can also choose to sort the stored tools by Name, Mod or Wear.\n"
+msgstr "Le coffre à outils offre un grand nombre d'emplacements de stockage, mais il ne peut contenir que des outils (c'est-à-dire des objets dont la taille maximale de la pile est de 1). Le coffre à outils est également accessible par les demandeurs pour fournir des objets. Le coffre à outils ne peut pas être creusé tant qu'il contient des objets (contrairement au stockage de masse, qui conserve son inventaire). Vous pouvez également choisir de trier les outils stockés par Nom, Mod ou Usure."
 
 #: guide/guide_desc_machines.lua:107
-msgid ""
-"A Passive Supplier Chest acts as a regular chest, and a source for items for "
-"network requests.\n"
-"\n"
-"It has a small inventory, as it is not meant to be used for regular storage, "
-"but any item can be put in it. Passive Supplier Chests won't actively push "
-"items into the network, but Demanders and Mass Storage nodes can both take "
-"items from Suppliers when needed. Passive Supplier Chests have a toggle if "
-"they should also accept items to be stored in them from Network Importers.\n"
-msgstr ""
+msgid "A Passive Supplier Chest acts as a regular chest, and a source for items for network requests.\n\nIt has a small inventory, as it is not meant to be used for regular storage, but any item can be put in it. Passive Supplier Chests won't actively push items into the network, but Demanders and Mass Storage nodes can both take items from Suppliers when needed. Passive Supplier Chests have a toggle if they should also accept items to be stored in them from Network Importers.\n"
+msgstr "Un coffre de fournisseur passif agit comme un coffre normal et comme une source d'objets pour les demandes du réseau. Il a un petit inventaire, car il n'est pas destiné à être utilisé pour le stockage normal, mais n'importe quel objet peut y être placé. Les coffres de fournisseurs passifs ne poussent pas activement les objets dans le réseau, mais les demandeurs et les nœuds de stockage de masse peuvent tous deux prendre des objets aux fournisseurs en cas de besoin. Les coffres de fournisseurs passifs disposent d'une option leur permettant d'accepter les objets stockés par les importateurs du réseau."
 
 #: guide/guide_desc_machines.lua:113
-msgid ""
-"Network Importer are used to automatically take items from other nodes (e.g. "
-"furnaces) and add them to the network.\n"
-"\n"
-"To get a Network Importer working you must:\n"
-"\n"
-"- Place it facing a node that has an inventory it can access. Sneak + punch "
-"an importer to see its input position.\n"
-"- Select which inventory of the target node to take from - some nodes have "
-"multiple inventories, and one must be selected.\n"
-"- Make sure you press the Enable button to enable its functionality.\n"
-"- Optionally, you can configure the importer to only pull specific items by "
-"placing them in the Filter List. If the list is empty, the importer will "
-"indiscriminately attempt to pull any item, slot by slot, from its input "
-"node.\n"
-"- Optionally, select which machine types the importer will try to insert "
-"items into.\n"
-"\n"
-"Network importers scan 1 slot, and rotate which slot they take from each "
-"time they tick.\n"
-"\n"
-"Network Importers prioritize where they put their items in this order, "
-"assuming the type of machine to import into is enabled in the Importer's "
-"interface:\n"
-"\n"
-"- Fill the requests of any Requesters on the network\n"
-"- Fill any Mass or Item Storages (depending on whether item is stackable or "
-"not) that can handle this item\n"
-"- Fill any passive supply chests (if the chests are configured to accept "
-"items from the network)\n"
-"- Trash the item if there's any Trashcans connected that accept this kind of "
-"item. (see Trashcan)\n"
-"\n"
-"Using the Importer's GUI, you can enable or disable each of the 4 types of "
-"machines to import items into, and any disabled won't be added into. If no "
-"machine type is enabled to import into, then the Importer won't add any "
-"items at all. Note that even when a machine type is enabled, the Importer "
-"obeys the configuration of those machines, e.g. if a Passive Supply Chest is "
-"marked as \"Don't allow storing from network\" then the importer won't add "
-"into it.\n"
-"\n"
-"There's 2 version of the Network Importer:\n"
-"\n"
-"- Slow Network Importer: Takes up to 10 items from a slot at a time, and "
-"tries to insert it in the network.\n"
-"- Fast Network Importer: Takes up to 99 items from a slot at a time, and "
-"tries to insert them in the network.\n"
-"\n"
-"Note that how many items can be sent at one time to a Requester is still "
-"limited by the Requester itself (meaning an Item Requester will only receive "
-"1 item, while a Stack Requester will receive up to 99). However when sending "
-"to Mass Storage or Passive Supply chests, the full stack the importer is "
-"capable of taking will be sent.\n"
-msgstr ""
+msgid "Network Importer are used to automatically take items from other nodes (e.g. furnaces) and add them to the network.\n\nTo get a Network Importer working you must:\n\n- Place it facing a node that has an inventory it can access. Sneak + punch an importer to see its input position.\n- Select which inventory of the target node to take from - some nodes have multiple inventories, and one must be selected.\n- Make sure you press the Enable button to enable its functionality.\n- Optionally, you can configure the importer to only pull specific items by placing them in the Filter List. If the list is empty, the importer will indiscriminately attempt to pull any item, slot by slot, from its input node.\n- Optionally, select which machine types the importer will try to insert items into.\n\nNetwork importers scan 1 slot, and rotate which slot they take from each time they tick.\n\nNetwork Importers prioritize where they put their items in this order, assuming the type of machine to import into is enabled in the Importer's interface:\n\n- Fill the requests of any Requesters on the network\n- Fill any Mass or Item Storages (depending on whether item is stackable or not) that can handle this item\n- Fill any passive supply chests (if the chests are configured to accept items from the network)\n- Trash the item if there's any Trashcans connected that accept this kind of item. (see Trashcan)\n\nUsing the Importer's GUI, you can enable or disable each of the 4 types of machines to import items into, and any disabled won't be added into. If no machine type is enabled to import into, then the Importer won't add any items at all. Note that even when a machine type is enabled, the Importer obeys the configuration of those machines, e.g. if a Passive Supply Chest is marked as \"Don't allow storing from network\" then the importer won't add into it.\n\nThere's 2 version of the Network Importer:\n\n- Slow Network Importer: Takes up to 10 items from a slot at a time, and tries to insert it in the network.\n- Fast Network Importer: Takes up to 99 items from a slot at a time, and tries to insert them in the network.\n\nNote that how many items can be sent at one time to a Requester is still limited by the Requester itself (meaning an Item Requester will only receive 1 item, while a Stack Requester will receive up to 99). However when sending to Mass Storage or Passive Supply chests, the full stack the importer is capable of taking will be sent.\n"
+msgstr "Les importateurs de réseau sont utilisés pour prendre automatiquement des objets dans d'autres nœuds (par exemple des fours) et les ajouter au réseau.\NPour faire fonctionner un importateur de réseau, vous devez :\N- Le placer en face d'un nœud qui a un inventaire auquel il peut accéder. Sneak + punch an importer to see its input position.\N- Sélectionnez l'inventaire du nœud cible à utiliser - certains nœuds ont plusieurs inventaires et l'un d'entre eux doit être sélectionné.\N- Assurez-vous d'appuyer sur le bouton Enable pour activer sa fonctionnalité.\N- En option, vous pouvez configurer l'importateur pour qu'il n'utilise que des éléments spécifiques en les plaçant dans la Filter List (liste de filtres). Si la liste est vide, l'importateur tentera d'extraire n'importe quel élément, emplacement par emplacement, de son nœud d'entrée. \N- En option, sélectionnez les types de machines dans lesquelles l'importateur tentera d'insérer des éléments. \NLes importateurs de réseau scannent un emplacement et changent d'emplacement à chaque fois qu'ils cochent la case.\Les importateurs en réseau donnent la priorité à l'endroit où ils placent leurs objets dans cet ordre, en supposant que le type de machine à importer soit activé dans l'interface de l'importateur :\N- Remplir les requêtes de tous les Requesters du réseau \N- Remplir tous les Mass ou Item Storages (selon que l'objet est empilable ou non) qui peuvent gérer cet objet \N- Remplir tous les coffres d'approvisionnement passifs (si les coffres sont configurés pour accepter les objets du réseau)\N- Mettre l'objet à la poubelle s'il y a des Trashcans connectés qui acceptent ce type d'objet. (voir Corbeille)\NEn utilisant l'interface graphique de l'importateur, vous pouvez activer ou désactiver chacun des 4 types de machines pour y importer des objets, et toutes celles qui sont désactivées ne seront pas ajoutées. Si aucun type de machine n'est activé pour l'importation, l'importateur n'ajoutera aucun élément. Notez que même lorsqu'un type de machine est activé, l'importateur obéit à la configuration de ces machines, par exemple si un coffre de ravitaillement passif est marqué comme "Ne pas autoriser le stockage depuis le réseau", alors l'importateur n'y ajoutera rien. Il y a 2 versions de l'importateur de réseau :- Importateur de réseau lent : prend jusqu'à 10 objets d'un emplacement à la fois, et essaye de les insérer dans le réseau.\Notez que le nombre d'objets pouvant être envoyés en même temps à un Requérant est toujours limité par le Requérant lui-même (ce qui signifie qu'un Requérant d'objet ne recevra qu'un seul objet, alors qu'un Requérant de pile en recevra jusqu'à 99). Cependant, lors de l'envoi vers des coffres de stockage de masse ou d'approvisionnement passif, la pile complète que l'importateur est capable de prendre sera envoyée."
 
 #: guide/guide_desc_machines.lua:143
-msgid ""
-"The Request Inserter is used to put items in other nodes outside the "
-"network.\n"
-"\n"
-"Note that while there item-wise and stack-wise Inserters, in ALMOST ALL you "
-"only need the item-wise Inserter.\n"
-"\n"
-"To use an Inserter, you must:\n"
-"\n"
-"- Place it facing a node that has an inventory it can target. Sneak + "
-"punching an inserter will show its output location.\n"
-"- Pick an inventory to place items into. Some nodes have multiple input "
-"inventories (e.g. a furnace)\n"
-"- Configure exactly which items to put in the target and how many - in the 4 "
-"upper slots. If not configured, nothing will be inserted.\n"
-"- Make sure you press the Enable button to enable operation\n"
-"- Request Inserters will request the configured items from the Network and "
-"try to keep its target's inventory full of at the minimum the specific items "
-"and the exact count. For example, a Request Inserter might be configured to "
-"target a Furnace's \"fuel\" inventory and always try to keep 2 Coal in it, "
-"while another request inserter targeting the same furnace, but it's \"src\" "
-"inventory can be configured to try and always keep 2 Iron Ore in it.\n"
-"- You can also check the \"Inf\" (short for \"Infinite\") checkbox to make "
-"the Request Inserter always request the item\n"
-"\n"
-"When the \"Inf\" checkbox below a slot is not checked, then the Inserter "
-"checks if the target inventory has at least as many items as the configured "
-"Inserter slot contains, and if there are fewer, then the requester will "
-"request the difference to try and reach the configured number.\n"
-"\n"
-"When the \"Inf\" checkbox below a slot is checked, then the Inserter won't "
-"check how many of that item are contained in the target inventory, but "
-"instead will request that amount of items every time interval (roughly every "
-"1 second) and will attempt to put them in the target inventory, until there "
-"is no more room in that inventory.\n"
-"\n"
-"Request Inserters check for to obtain the items in the following order:\n"
-"\n"
-"- Any Suppliers (e.g. Passive Supply Chest, Vaccuum Chest, Cobble Gen "
-"Supplier or Crafting Supplier)\n"
-"- Mass Storage or Tool Box nodes (depending on the item needed)\n"
-"\n"
-"There's two variation of the Request Inserter, and as mentioned above in "
-"almost all cases you only need the item-wise Inserter.\n"
-"\n"
-"- Item Request Inserter: Moves 1 item at a time to fulfil the requested "
-"items.\n"
-"- Stack Request Inserter: Moves up to 99 items at a time to fulfil the "
-"requested items. Note that this does not mean it will insert 99 items, but "
-"rather it can insert up to 99 - it will still only insert as many as are "
-"necessary to meet the target number set by the filter list.\n"
-msgstr ""
+msgid "The Request Inserter is used to put items in other nodes outside the network.\n\nNote that while there item-wise and stack-wise Inserters, in ALMOST ALL you only need the item-wise Inserter.\n\nTo use an Inserter, you must:\n\n- Place it facing a node that has an inventory it can target. Sneak + punching an inserter will show its output location.\n- Pick an inventory to place items into. Some nodes have multiple input inventories (e.g. a furnace)\n- Configure exactly which items to put in the target and how many - in the 4 upper slots. If not configured, nothing will be inserted.\n- Make sure you press the Enable button to enable operation\n- Request Inserters will request the configured items from the Network and try to keep its target's inventory full of at the minimum the specific items and the exact count. For example, a Request Inserter might be configured to target a Furnace's \"fuel\" inventory and always try to keep 2 Coal in it, while another request inserter targeting the same furnace, but it's \"src\" inventory can be configured to try and always keep 2 Iron Ore in it.\n- You can also check the \"Inf\" (short for \"Infinite\") checkbox to make the Request Inserter always request the item\n\nWhen the \"Inf\" checkbox below a slot is not checked, then the Inserter checks if the target inventory has at least as many items as the configured Inserter slot contains, and if there are fewer, then the requester will request the difference to try and reach the configured number.\n\nWhen the \"Inf\" checkbox below a slot is checked, then the Inserter won't check how many of that item are contained in the target inventory, but instead will request that amount of items every time interval (roughly every 1 second) and will attempt to put them in the target inventory, until there is no more room in that inventory.\n\nRequest Inserters check for to obtain the items in the following order:\n\n- Any Suppliers (e.g. Passive Supply Chest, Vaccuum Chest, Cobble Gen Supplier or Crafting Supplier)\n- Mass Storage or Tool Box nodes (depending on the item needed)\n\nThere's two variation of the Request Inserter, and as mentioned above in almost all cases you only need the item-wise Inserter.\n\n- Item Request Inserter: Moves 1 item at a time to fulfil the requested items.\n- Stack Request Inserter: Moves up to 99 items at a time to fulfil the requested items. Note that this does not mean it will insert 99 items, but rather it can insert up to 99 - it will still only insert as many as are necessary to meet the target number set by the filter list.\n"
+msgstr "Le Request Inserter est utilisé pour placer des objets dans d'autres nœuds en dehors du réseau.\NNotez que bien qu'il y ait des Inserters à l'échelle de l'objet et à l'échelle de la pile, vous n'aurez besoin que du Inserter à l'échelle de l'objet dans la plupart des cas.\NPour utiliser un Inserter, vous devez :\N- Le placer en face d'un nœud qui a un inventaire qu'il peut cibler. Sneak + punching a inserter will show its output location.\N- Choisir un inventaire dans lequel placer les objets. Certains nœuds ont plusieurs inventaires d'entrée (par exemple un four).\N- Configurez exactement quels objets doivent être placés dans la cible et combien - dans les 4 emplacements supérieurs. Si rien n'est configuré, rien ne sera inséré.\N- Assurez-vous d'appuyer sur le bouton Activer pour activer l'opération.\N- Les encodeurs de requêtes demanderont les éléments configurés au réseau et essaieront de maintenir l'inventaire de leur cible rempli au minimum des éléments spécifiques et du nombre exact. Par exemple, un request inserter peut être configuré pour cibler l'inventaire "fuel" d'un Furnace et toujours essayer de garder 2 Coal, tandis qu'un autre request inserter ciblant le même Furnace, mais son inventaire "src" peut être configuré pour essayer de toujours garder 2 Iron Ore.\Vous pouvez également cocher la case "Inf" (abréviation de "Infinite") pour que l'Inséreur de requêtes demande toujours l'objet. Lorsque la case "Inf" sous un emplacement n'est pas cochée, l'Inséreur vérifie si l'inventaire cible contient au moins autant d'objets que l'emplacement configuré de l'Inséreur, et s'il y en a moins, l'Inséreur demandera la différence pour essayer d'atteindre le nombre configuré.\Lorsque la case "Infusion" sous un emplacement est cochée, l'Inserteur ne vérifiera pas combien d'objets sont contenus dans l'inventaire cible, mais demandera cette quantité d'objets à chaque intervalle de temps (environ toutes les secondes) et tentera de les placer dans l'inventaire cible, jusqu'à ce qu'il n'y ait plus de place dans cet inventaire.\NLes Inserteurs demandent à obtenir les objets dans l'ordre suivant :\N- Tout fournisseur (par ex. Coffre de ravitaillement passif, coffre à vide, fournisseur de galets ou fournisseur d'artisanat)\N- Nœuds de stockage de masse ou de boîte à outils (en fonction de l'objet requis)\N- Il existe deux variantes de l'Inséreur de requêtes, et comme mentionné ci-dessus, dans la plupart des cas, vous n'avez besoin que de l'Inséreur d'objets.\N- Inséreur de requêtes d'objets : déplace 1 objet à la fois pour remplir les objets demandés.\N- Inséreur de requêtes de piles : déplace jusqu'à 99 objets à la fois pour remplir les objets demandés. Notez que cela ne signifie pas qu'il insère 99 éléments, mais plutôt qu'il peut en insérer jusqu'à 99 - il n'en insérera toujours que le nombre nécessaire pour atteindre le nombre cible défini par la liste de filtres."
 
 #: guide/guide_desc_machines.lua:172
-msgid ""
-"Reservoirs are portable nodes capable of storing liquids.\n"
-"\n"
-"To use one, place it on the ground, then right-click with a full or empty "
-"bucket to put or take liquid from it. Each reservoir stores only 1 liquid "
-"type.\n"
-"\n"
-"You can dig a reservoir and it will keep its liquid content when you place "
-"it again, which is why reservoirs are non-stackable items.\n"
-"\n"
-"Reservoirs also connect to a Logistic Network and can thus be accessed via "
-"both the Access Point and Wireless Access Pad.\n"
-"\n"
-"Reservoirs come in 2 variations:\n"
-"- Silverin: Stores up to 32 buckets of liquid\n"
-"- Obsidian: Stores up to 128 buckets of liquid\n"
-msgstr ""
+msgid "Reservoirs are portable nodes capable of storing liquids.\n\nTo use one, place it on the ground, then right-click with a full or empty bucket to put or take liquid from it. Each reservoir stores only 1 liquid type.\n\nYou can dig a reservoir and it will keep its liquid content when you place it again, which is why reservoirs are non-stackable items.\n\nReservoirs also connect to a Logistic Network and can thus be accessed via both the Access Point and Wireless Access Pad.\n\nReservoirs come in 2 variations:\n- Silverin: Stores up to 32 buckets of liquid\n- Obsidian: Stores up to 128 buckets of liquid\n"
+msgstr "Les réservoirs sont des nœuds portables capables de stocker des liquides. Pour en utiliser un, placez-le sur le sol, puis faites un clic droit avec un seau plein ou vide pour y mettre ou y prendre du liquide. Chaque réservoir ne stocke qu'un seul type de liquide.\NVous pouvez creuser un réservoir et il conservera son contenu liquide lorsque vous le replacerez, c'est pourquoi les réservoirs ne sont pas empilables.\NLes réservoirs se connectent également à un réseau logistique et sont donc accessibles via le point d'accès et le pad d'accès sans fil.\NLes réservoirs existent en 2 variantes :\N- Silverin : Stocke jusqu'à 32 seaux de liquide\N- Obsidian : Stocke jusqu'à 128 seaux de liquide."
 
 #: guide/guide_desc_machines.lua:186
-msgid ""
-"The Pump is a machine that can automatically collect liquid nodes from the "
-"world and fill up Reservoirs.\n"
-"\n"
-"To use a Pump:\n"
-"\n"
-"- Place it directly above the liquid level, as in screenshot above, (no air "
-"gaps or solid blocks between - it there are gaps/nodes it won't work!)\n"
-"- Connect reservoirs by one of 2 methods:\n"
-"- Place Reservoirs directly adjacent to it, up to 4, one on each side - no "
-"Network connection required\n"
-"- Connect the Pump to a network on which Reservoirs are also connected\n"
-"- Enable the machine via its GUI\n"
-"\n"
-"The Pump will first fill out any adjacent Reservoirs before attempting to "
-"fill any Network-connected Reservoirs\n"
-"\n"
-"The Max Level setting tells the pump when to stop pumping liquid into a "
-"network. For example, if it's set to 30 and the pump is pumping water, once "
-"there are 30 buckets of water available in the network, the pump will not "
-"add more to the network reservoirs. If the amount on the network goes below "
-"30, the pump will once again start pumping liquid until it reaches 30. "
-"Setting the Max to 0 will make the pump continuously pump liquid into the "
-"network without caring how much is already available.\n"
-"\n"
-"Note that the Max only applies to pumping into network reservoirs. "
-"Reservoirs that are directly connected to the pump (by being adjacent to it) "
-"will be filled to max capacity, regardless of the Max setting.\n"
-"\n"
-"Note that Renewable liquids (like Water) are not taken by the pump, allowing "
-"you to essentially have an unlimited supply of Water in your Logistics "
-"Network.\n"
-msgstr ""
+msgid "The Pump is a machine that can automatically collect liquid nodes from the world and fill up Reservoirs.\n\nTo use a Pump:\n\n- Place it directly above the liquid level, as in screenshot above, (no air gaps or solid blocks between - it there are gaps/nodes it won't work!)\n- Connect reservoirs by one of 2 methods:\n- Place Reservoirs directly adjacent to it, up to 4, one on each side - no Network connection required\n- Connect the Pump to a network on which Reservoirs are also connected\n- Enable the machine via its GUI\n\nThe Pump will first fill out any adjacent Reservoirs before attempting to fill any Network-connected Reservoirs\n\nThe Max Level setting tells the pump when to stop pumping liquid into a network. For example, if it's set to 30 and the pump is pumping water, once there are 30 buckets of water available in the network, the pump will not add more to the network reservoirs. If the amount on the network goes below 30, the pump will once again start pumping liquid until it reaches 30. Setting the Max to 0 will make the pump continuously pump liquid into the network without caring how much is already available.\n\nNote that the Max only applies to pumping into network reservoirs. Reservoirs that are directly connected to the pump (by being adjacent to it) will be filled to max capacity, regardless of the Max setting.\n\nNote that Renewable liquids (like Water) are not taken by the pump, allowing you to essentially have an unlimited supply of Water in your Logistics Network.\n"
+msgstr "La Pompe est une machine qui peut automatiquement collecter les nœuds liquides du monde et remplir les Réservoirs.\NPour utiliser une Pompe:\N- Placez-la directement au-dessus du niveau de liquide, comme dans la capture d'écran ci-dessus, (pas de trous d'air ou de blocs solides entre les deux - s'il y a des trous/nœuds, cela ne fonctionnera pas !)\N- Connectez les réservoirs par l'une des 2 méthodes suivantes:\N- Placez les réservoirs directement adjacents, jusqu'à 4, un de chaque côté - aucune connexion réseau n'est requise\N- Connectez la pompe à un réseau sur lequel les réservoirs sont également connectés\N- Activez la machine via son interface graphique\N- La pompe remplira d'abord les réservoirs adjacents avant d'essayer de remplir les réservoirs connectés au réseau\N- Le réglage du niveau maximum indique à la pompe quand elle doit arrêter de pomper du liquide dans un réseau. Par exemple, s'il est réglé sur 30 et que la pompe pompe de l'eau, une fois qu'il y a 30 seaux d'eau disponibles dans le réseau, la pompe n'en ajoutera plus dans les réservoirs du réseau. Si la quantité d'eau dans le réseau descend en dessous de 30, la pompe recommencera à pomper du liquide jusqu'à ce qu'elle atteigne 30. En réglant le Max sur 0, la pompe pompera continuellement du liquide dans le réseau sans se préoccuper de la quantité déjà disponible.\NNNotez que le Max s'applique uniquement au pompage dans les réservoirs du réseau. Les réservoirs qui sont directement connectés à la pompe (en étant adjacents à celle-ci) seront remplis au maximum de leur capacité, quel que soit le paramètre Max.\NNotez que les liquides renouvelables (comme l'eau) ne sont pas pris par la pompe, ce qui vous permet d'avoir un approvisionnement illimité en eau dans votre réseau logistique."
 
 #: guide/guide_desc_machines.lua:206
-msgid ""
-"The Bucket Filler machine connects to a network and can provide the "
-"specified filled bucket On-Demand (meaning only when something on the "
-"network needs it), much like crafting suppliers provide items on-demand.\n"
-"\n"
-"To use it:\n"
-"\n"
-"- Place Bucket Filler so it connects to network\n"
-"- Either provide empty buckets in its inventory, or ensure empty buckets are "
-"available as a supply on the network\n"
-"- Select the type of filled Bucket you want the machine to provide\n"
-"- You can also take filled buckets from it, or from an Access Point/Wireless "
-"Access Pad on the same network\n"
-msgstr ""
+msgid "The Bucket Filler machine connects to a network and can provide the specified filled bucket On-Demand (meaning only when something on the network needs it), much like crafting suppliers provide items on-demand.\n\nTo use it:\n\n- Place Bucket Filler so it connects to network\n- Either provide empty buckets in its inventory, or ensure empty buckets are available as a supply on the network\n- Select the type of filled Bucket you want the machine to provide\n- You can also take filled buckets from it, or from an Access Point/Wireless Access Pad on the same network\n"
+msgstr "La machine Bucket Filler se connecte à un réseau et peut fournir le seau rempli spécifié à la demande (c'est-à-dire uniquement lorsque quelque chose sur le réseau en a besoin), tout comme les fournisseurs d'artisanat fournissent des objets à la demande.\Pour l'utiliser :- Placez le remplisseur de seaux de façon à ce qu'il se connecte au réseau - Fournissez des seaux vides dans son inventaire ou assurez-vous que des seaux vides sont disponibles sur le réseau - Sélectionnez le type de seau rempli que vous voulez que la machine fournisse - Vous pouvez également prendre des seaux remplis à partir de la machine ou à partir d'un point d'accès ou d'une borne d'accès sans fil sur le même réseau - Vous pouvez également prendre des seaux remplis à partir d'un point d'accès ou d'une borne d'accès sans fil sur le même réseau."
 
 #: guide/guide_desc_machines.lua:217
-msgid ""
-"The Bucket Emptier accepts filled buckets into its inventory and attempts to "
-"empty them into any applicable reservoirs connected to the network. The "
-"resulting Empty Buckets are put in its output slot, and become available as "
-"a passive supply of empty buckets to the connected network\n"
-"\n"
-"Notes:\n"
-"\n"
-"- The Bucket Emptier's input inventory (where filled buckets go) is "
-"accessible by a Requester, which can insert items into it.\n"
-"- The machine has to be turned on to start processing filled buckets.\n"
-"- If no reservoir can accept the liquid, it will cycle to the next slot in "
-"its input.\n"
-msgstr ""
+msgid "The Bucket Emptier accepts filled buckets into its inventory and attempts to empty them into any applicable reservoirs connected to the network. The resulting Empty Buckets are put in its output slot, and become available as a passive supply of empty buckets to the connected network\n\nNotes:\n\n- The Bucket Emptier's input inventory (where filled buckets go) is accessible by a Requester, which can insert items into it.\n- The machine has to be turned on to start processing filled buckets.\n- If no reservoir can accept the liquid, it will cycle to the next slot in its input.\n"
+msgstr "Le Videur de Seaux accepte des seaux remplis dans son inventaire et tente de les vider dans les réservoirs connectés au réseau. Les seaux vides qui en résultent sont placés dans son emplacement de sortie et deviennent disponibles en tant que réserve passive de seaux vides pour le réseau connecté. Notes:\N- L'inventaire d'entrée du videur de seaux (où vont les seaux remplis) est accessible par un demandeur, qui peut y insérer des objets.\N- La machine doit être allumée pour commencer à traiter les seaux remplis.\N- Si aucun réservoir ne peut accepter le liquide, elle passera à l'emplacement suivant dans son entrée.\N- La machine doit être allumée pour commencer à traiter les seaux remplis.\N- Si aucun réservoir ne peut accepter le liquide, elle passera à l'emplacement suivant dans son entrée.\N- La machine doit être allumée pour commencer à traiter les seaux remplis."
 
 #: guide/guide_desc_machines.lua:227
-msgid ""
-"The Crafting Supplier is a powerful on-demand supplier that crafts items on "
-"the fly, meaning it only crafts when asked for an item it can produce.\n"
-"\n"
-"For example: do you want to store only Steel Blocks in your network storage, "
-"but some of your machines need Steel Ingots? Put one of these machines on "
-"your network and it will automatically craft only as many Steel Ingots as "
-"your machines need!\n"
-"\n"
-"These machines also work recursively: if you have multiple Crafting "
-"Suppliers set up on your network, they can use each other to get materials "
-"they need. For example you can set up one Crafting Supplier to craft Mese "
-"Crystals from Mese Blocks, and another to craft Mese Shards from Mese "
-"Crystals. Then only store Mese Blocks in your Network storage and if any "
-"machine needs a Mese Shard, it will be crafted for you!\n"
-"\n"
-"These machines also interface with the Access Point and Wireless Access Pad, "
-"so you can take items that aren't stored on your network and they will be "
-"crafted by the Crafting Supplier for you!\n"
-msgstr ""
+msgid "The Crafting Supplier is a powerful on-demand supplier that crafts items on the fly, meaning it only crafts when asked for an item it can produce.\n\nFor example: do you want to store only Steel Blocks in your network storage, but some of your machines need Steel Ingots? Put one of these machines on your network and it will automatically craft only as many Steel Ingots as your machines need!\n\nThese machines also work recursively: if you have multiple Crafting Suppliers set up on your network, they can use each other to get materials they need. For example you can set up one Crafting Supplier to craft Mese Crystals from Mese Blocks, and another to craft Mese Shards from Mese Crystals. Then only store Mese Blocks in your Network storage and if any machine needs a Mese Shard, it will be crafted for you!\n\nThese machines also interface with the Access Point and Wireless Access Pad, so you can take items that aren't stored on your network and they will be crafted by the Crafting Supplier for you!\n"
+msgstr "Le fournisseur d'artisanat est un puissant fournisseur à la demande qui fabrique des objets à la volée, c'est-à-dire qu'il ne fabrique que lorsqu'on lui demande un objet qu'il peut produire.\NPar exemple : vous voulez stocker uniquement des blocs d'acier dans votre stockage réseau, mais certaines de vos machines ont besoin de lingots d'acier ? Placez l'une de ces machines sur votre réseau et elle fabriquera automatiquement autant de lingots d'acier que vos machines en ont besoin ! Ces machines fonctionnent également de manière récursive : si vous avez plusieurs fournisseurs d'artisanat sur votre réseau, ils peuvent se servir les uns des autres pour obtenir les matériaux dont ils ont besoin. Par exemple, vous pouvez configurer un fournisseur d'artisanat pour fabriquer des cristaux de Mese à partir de blocs de Mese, et un autre pour fabriquer des éclats de Mese à partir de cristaux de Mese. Ensuite, ne stockez que des blocs de Mese dans votre stockage réseau et si une machine a besoin d'un éclat de Mese, il sera fabriqué pour vous !\NCes machines s'interfacent également avec le point d'accès et le bloc d'accès sans fil, de sorte que vous pouvez prendre des objets qui ne sont pas stockés sur votre réseau et ils seront fabriqués par le fournisseur d'artisanat pour vous !\N"
 
 #: guide/guide_desc_machines.lua:237
-msgid ""
-"The Autocrafter is simple a non-network machine that simply crafts from its "
-"input to the output. It does not interface directly with a network but can "
-"be accessed by both Network Importers and Request Inserters to feed it to/"
-"from the network.\n"
-msgstr ""
+msgid "The Autocrafter is simple a non-network machine that simply crafts from its input to the output. It does not interface directly with a network but can be accessed by both Network Importers and Request Inserters to feed it to/from the network.\n"
+msgstr "L'Autocrafter est une machine simple, sans réseau, qui fabrique simplement des objets de son entrée à sa sortie. Il n'est pas directement relié à un réseau, mais les importateurs de réseaux et les inséreurs de requêtes peuvent y accéder pour l'alimenter depuis ou vers le réseau."
 
 #: guide/guide_desc_machines.lua:241
-msgid ""
-"The Vaccuum Supply Chest acts like a regular Supply chest, providing items "
-"to the network when there's requests or storage pulls items. There are two "
-"differences:\n"
-"\n"
-"- As the name indicates, the Vaccuum chest will collect nearby dropped "
-"items, up to a distance of 3 blocks, into its inventory, automatically "
-"making them available for the Network.\n"
-"- It cannot be used by the Network to store items in it (unlike regular "
-"Supply Chests which can be configured to allow storing from the Network)\n"
-"\n"
-"The on/off switch in the Vaccuum Chests's inventory enables whether the "
-"chest will be collecting nearby items or not.\n"
-msgstr ""
+msgid "The Vaccuum Supply Chest acts like a regular Supply chest, providing items to the network when there's requests or storage pulls items. There are two differences:\n\n- As the name indicates, the Vaccuum chest will collect nearby dropped items, up to a distance of 3 blocks, into its inventory, automatically making them available for the Network.\n- It cannot be used by the Network to store items in it (unlike regular Supply Chests which can be configured to allow storing from the Network)\n\nThe on/off switch in the Vaccuum Chests's inventory enables whether the chest will be collecting nearby items or not.\n"
+msgstr "Le coffre Vaccuum agit comme un coffre ordinaire, fournissant des objets au réseau lorsqu'il y a des demandes ou que le stockage tire sur les objets. Il y a deux différences :\N- Comme son nom l'indique, le coffre Vaccuum collecte les objets déposés à proximité, jusqu'à une distance de 3 blocs, dans son inventaire, les rendant automatiquement disponibles pour le réseau.\N- Il ne peut pas être utilisé par le réseau pour y stocker des objets (contrairement aux coffres de ravitaillement normaux qui peuvent être configurés pour permettre le stockage à partir du réseau)\N- L'interrupteur marche/arrêt dans l'inventaire du coffre Vaccuum permet de déterminer si le coffre collecte les objets à proximité ou non.\N- L'interrupteur marche/arrêt dans l'inventaire du coffre Vaccuum permet de déterminer si le coffre collecte les objets à proximité ou non.\N- Le coffre Vaccuum fonctionne comme un coffre de ravitaillement normal."
 
 #: guide/guide_desc_machines.lua:250
-msgid ""
-"The Lava Furnace Fueler is a Network-connected machine that will attempt to "
-"re-fuel a Lava Furnace from any Reservoirs containing Lava that are "
-"connected to the network, thus allowing Automation of the Lava Furnace.\n"
-"\n"
-"When configured with a minimum level, it will refuel the Lava Furnace it "
-"points to by 1 bucket if the Lava Furnace's level drops below the set "
-"minimum fuel level. Note that you must have Reservoirs containing Lava "
-"connected to the same network and that the Fueler will take 1 bucket at a "
-"time each time it refuels a Lava Furnace.\n"
-msgstr ""
+msgid "The Lava Furnace Fueler is a Network-connected machine that will attempt to re-fuel a Lava Furnace from any Reservoirs containing Lava that are connected to the network, thus allowing Automation of the Lava Furnace.\n\nWhen configured with a minimum level, it will refuel the Lava Furnace it points to by 1 bucket if the Lava Furnace's level drops below the set minimum fuel level. Note that you must have Reservoirs containing Lava connected to the same network and that the Fueler will take 1 bucket at a time each time it refuels a Lava Furnace.\n"
+msgstr "Le Lava Furnace Fueler est une machine connectée au réseau qui tentera de réalimenter un Lava Furnace à partir de n'importe quel réservoir contenant de la lave connecté au réseau, permettant ainsi l'automatisation du Lava Furnace. Lorsqu'il est configuré avec un niveau minimum, il réalimentera le Lava Furnace qu'il pointe d'un seau si le niveau du Lava Furnace tombe en dessous du niveau minimum de carburant défini. Notez que vous devez avoir des Réservoirs contenant de la lave connectés au même réseau et que le Fueler prendra 1 seau à la fois à chaque fois qu'il ravitaillera un Four à lave.ííííííííííííííííííííííííííííííííííí."
 
 #: guide/guide_desc_machines.lua:256
-msgid ""
-"The Cobble Generator Supplier acts as a supplier that generates Cobble and "
-"stores a small buffer in its inventory, providing it as a passive supply to "
-"the Network its connected to. By default it produces 1 Cobble every 2 "
-"seconds, but can be upgraded to produce up to 4 every 2 seconds.\n"
-"\n"
-"Why a Cobble Generator when it's possible to make one with Lava and Water "
-"and a Node Breaker?\n"
-"\n"
-"The answer is: to reduce lag. Breaking a node causes a rather expensive "
-"update to the world, recalculating lighting and getting lava or water "
-"flowing updates to trigger. Instead, the Cobble Gen provides a far less "
-"intensive way to generate Cobble while still requiring the same materials - "
-"lava and water.\n"
-msgstr ""
+msgid "The Cobble Generator Supplier acts as a supplier that generates Cobble and stores a small buffer in its inventory, providing it as a passive supply to the Network its connected to. By default it produces 1 Cobble every 2 seconds, but can be upgraded to produce up to 4 every 2 seconds.\n\nWhy a Cobble Generator when it's possible to make one with Lava and Water and a Node Breaker?\n\nThe answer is: to reduce lag. Breaking a node causes a rather expensive update to the world, recalculating lighting and getting lava or water flowing updates to trigger. Instead, the Cobble Gen provides a far less intensive way to generate Cobble while still requiring the same materials - lava and water.\n"
+msgstr "Le Cobble Generator Supplier agit comme un fournisseur qui génère du Cobble et stocke un petit tampon dans son inventaire, le fournissant de manière passive au réseau auquel il est connecté. Par défaut, il produit 1 Cobble toutes les 2 secondes, mais peut être amélioré pour en produire jusqu'à 4 toutes les 2 secondes. Pourquoi un générateur de Cobble alors qu'il est possible d'en fabriquer un avec de la lave, de l'eau et un briseur de nœuds ? La réponse est : pour réduire le lag. Briser un nœud provoque une mise à jour assez coûteuse du monde, en recalculant l'éclairage et en faisant en sorte que les mises à jour de lave ou d'eau se déclenchent. Au lieu de cela, le Cobble Gen fournit un moyen beaucoup moins intensif de générer des Cobbles tout en nécessitant les mêmes matériaux : de la lave et de l'eau."
 
 #: guide/guide_desc_machines.lua:264
-msgid ""
-"The trashcan is a node that deletes items. You can use it stand-alone "
-"without connecting it to a network - any time you delete an item it goes "
-"into the Last Deleted Item slot, allowing you to recover the very last item "
-"you deleted.\n"
-"\n"
-"Alternatively, you can also connect the Trashcan to a network. When "
-"connected it will delete any items that Network Importers push into the "
-"network that cannot be stored elsewhere.\n"
-"\n"
-"If you only want to delete specific items from the network (instead of all "
-"excess items) you can configure that with the filter slot - the the Trashcan "
-"will delete only items configured in its filter list.\n"
-msgstr ""
+msgid "The trashcan is a node that deletes items. You can use it stand-alone without connecting it to a network - any time you delete an item it goes into the Last Deleted Item slot, allowing you to recover the very last item you deleted.\n\nAlternatively, you can also connect the Trashcan to a network. When connected it will delete any items that Network Importers push into the network that cannot be stored elsewhere.\n\nIf you only want to delete specific items from the network (instead of all excess items) you can configure that with the filter slot - the the Trashcan will delete only items configured in its filter list.\n"
+msgstr "La corbeille est un nœud qui supprime des éléments. Vous pouvez l'utiliser de manière autonome sans la connecter à un réseau - chaque fois que vous supprimez un élément, il est placé dans l'emplacement Dernier élément supprimé, ce qui vous permet de récupérer le dernier élément que vous avez supprimé.\NVous pouvez également connecter la Corbeille à un réseau. Une fois connectée, elle supprimera tous les éléments que les importateurs de réseau introduisent dans le réseau et qui ne peuvent pas être stockés ailleurs.\NSi vous souhaitez uniquement supprimer des éléments spécifiques du réseau (au lieu de tous les éléments excédentaires), vous pouvez le configurer avec l'emplacement de filtre - la Corbeille ne supprimera que les éléments configurés dans sa liste de filtres.\NLa Corbeille ne supprimera que les éléments configurés dans sa liste de filtres.\NLa Corbeille ne supprimera que les éléments configurés dans sa liste de filtres."
 
 #: guide/guide_desc_machines.lua:272
-msgid ""
-"The Wireless Transmitter is a node that allows a network to be extended "
-"wirelessly, by connecting to a Wireless Receiver. It isn't necessary to use "
-"a Wireless Access Pad, as that synchronizes to an Access Point instead.\n"
-"\n"
-"Each network can only have 1 and only 1 Wireless Transmitter. In order to "
-"function, the Wireless Transmitter must be placed directly on top of the "
-"Network Controller. Once placed, it automatically starts to transmit the "
-"network, over an unlimited distance.\n"
-"\n"
-"If a Wireless Transmitter is dug or destroyed, or if the Network Controller "
-"below it is dug or destroyed, all connected Wireless Receivers will be "
-"disconnected, and must manually be re-connected once the Transmitter is "
-"placed.\n"
-"\n"
-"A wireless Transmitter has a limit of how many Receivers can be connected to "
-"it. This setting is configured by server, see the Server Settings guide page "
-"at the bottom of the list on the left.\n"
-msgstr ""
+msgid "The Wireless Transmitter is a node that allows a network to be extended wirelessly, by connecting to a Wireless Receiver. It isn't necessary to use a Wireless Access Pad, as that synchronizes to an Access Point instead.\n\nEach network can only have 1 and only 1 Wireless Transmitter. In order to function, the Wireless Transmitter must be placed directly on top of the Network Controller. Once placed, it automatically starts to transmit the network, over an unlimited distance.\n\nIf a Wireless Transmitter is dug or destroyed, or if the Network Controller below it is dug or destroyed, all connected Wireless Receivers will be disconnected, and must manually be re-connected once the Transmitter is placed.\n\nA wireless Transmitter has a limit of how many Receivers can be connected to it. This setting is configured by server, see the Server Settings guide page at the bottom of the list on the left.\n"
+msgstr "L'émetteur sans fil est un nœud qui permet d'étendre un réseau sans fil, en se connectant à un récepteur sans fil. Il n'est pas nécessaire d'utiliser un Access Pad sans fil, car celui-ci se synchronise avec un Access Point. Chaque réseau ne peut avoir qu'un et un seul émetteur sans fil. Pour fonctionner, l'émetteur sans fil doit être placé directement sur le contrôleur de réseau. Une fois placé, il commence automatiquement à transmettre le réseau, sur une distance illimitée.\NSi un émetteur sans fil est creusé ou détruit, ou si le contrôleur de réseau situé en dessous est creusé ou détruit, tous les récepteurs sans fil connectés seront déconnectés, et devront être reconnectés manuellement une fois l'émetteur placé.\NUn émetteur sans fil a une limite du nombre de récepteurs qui peuvent lui être connectés. Ce paramètre est configuré par le serveur, voir la page guide Paramètres du serveur au bas de la liste de gauche."
 
 #: guide/guide_desc_machines.lua:282
-msgid ""
-"The Wireless Receiver allows a network to be extended wirelessly, by "
-"connecting to a Wireless Transmitter.\n"
-"\n"
-"To use a Receiver, first place a Transmitter in a valid position (see its "
-"page for info) to allow the network to be wirelessly transmitted.\n"
-"\n"
-"Then place a Receiver in a valid position, such that it doesn't connect to "
-"an existing network. Then right click it and from the dropdown select the "
-"corresponding Network to connect to by name. Note that Networks can be "
-"renamed from their Network Controllers. Then press Connect - if successful, "
-"you will get a green \"Connected\" message.\n"
-"\n"
-"You can then connect Optic Cables to the Receiver and they will carry the "
-"network the Receiver was connected to.\n"
-"\n"
-"If you place a Receiver, and you cannot see your Network name (can happen "
-"after server/game restarts), first make sure the Network has a Wireless "
-"Transmitter attached to its controller. Then go and right click the Network "
-"Controller, which will make sure the network is active.\n"
-msgstr ""
+msgid "The Wireless Receiver allows a network to be extended wirelessly, by connecting to a Wireless Transmitter.\n\nTo use a Receiver, first place a Transmitter in a valid position (see its page for info) to allow the network to be wirelessly transmitted.\n\nThen place a Receiver in a valid position, such that it doesn't connect to an existing network. Then right click it and from the dropdown select the corresponding Network to connect to by name. Note that Networks can be renamed from their Network Controllers. Then press Connect - if successful, you will get a green \"Connected\" message.\n\nYou can then connect Optic Cables to the Receiver and they will carry the network the Receiver was connected to.\n\nIf you place a Receiver, and you cannot see your Network name (can happen after server/game restarts), first make sure the Network has a Wireless Transmitter attached to its controller. Then go and right click the Network Controller, which will make sure the network is active.\n"
+msgstr "Le récepteur sans fil permet d'étendre un réseau sans fil, en se connectant à un émetteur sans fil.\NPour utiliser un récepteur, placez d'abord un émetteur dans une position valide (voir sa page pour plus d'informations) pour permettre au réseau d'être transmis sans fil.\NPuis placez un récepteur dans une position valide, de telle sorte qu'il ne se connecte pas à un réseau existant. Cliquez ensuite avec le bouton droit de la souris et, dans la liste déroulante, sélectionnez le réseau correspondant auquel se connecter par son nom. Notez que les réseaux peuvent être renommés à partir de leurs contrôleurs de réseau. Appuyez ensuite sur Connect - en cas de succès, vous obtiendrez un message vert "Connected".\NVous pouvez alors connecter des câbles optiques au récepteur et ils transporteront le réseau auquel le récepteur a été connecté.\NSi vous placez un récepteur et que vous ne pouvez pas voir le nom de votre réseau (cela peut arriver après un redémarrage du serveur/jeu), assurez-vous d'abord que le réseau dispose d'un émetteur sans fil attaché à son contrôleur. Ensuite, cliquez avec le bouton droit de la souris sur le contrôleur du réseau, ce qui permettra de vérifier que le réseau est actif."
 
 #: guide/guide_desc_settings.lua:8
 msgid "Current Server Settings for Logistica:\n"
-msgstr ""
+msgstr "Configuration actuelle du serveur pour Logistica:\n"
 
 #: guide/guide_item.lua:11
 msgid "Guide Book to Logistica machines and concepts"
@@ -1535,11 +878,11 @@ msgstr "Artisanat"
 
 #: guide_api/api.lua:130
 msgid "Go back"
-msgstr "Retour"
+msgstr "Retourner"
 
 #: guide_api/api.lua:134
 msgid "Go forward"
-msgstr "Avancer"
+msgstr "Aller de l'avant"
 
 #: guide_api/api.lua:175
 msgid "Recipe: @1 of @2"
@@ -1547,71 +890,55 @@ msgstr "Recette : @1 de @2"
 
 #: guide_api/api.lua:215
 msgid "Related:"
-msgstr "Lié :"
+msgstr "En rapport :"
 
 #: item/craft_item.lua:8
-msgid ""
-"A Unit of Lava\n"
-"Use in Lava Furnace or with Empty Bucket"
-msgstr ""
+msgid "A Unit of Lava\nUse in Lava Furnace or with Empty Bucket"
+msgstr "Une unité de lave Utilisation dans un four à lave ou avec un seau vide"
 
 #: item/craft_item.lua:14
 msgid "Silverin Slice"
-msgstr "Tranche Silverin"
+msgstr "Tranche d'argentine"
 
 #: item/craft_item.lua:20
 msgid "Silverin Circuit"
-msgstr "Circuit Silverin"
+msgstr "Circuit de l'argentine"
 
 #: item/craft_item.lua:26
 msgid "Silverin Mirror Box"
-msgstr "Boîte Miroir Silverin"
+msgstr "Boîte à miroir en argentine"
 
 #: item/craft_item.lua:32
-msgid ""
-"Photonizer\n"
-"E = M*C^2"
-msgstr ""
+msgid "Photonizer\nE = M*C^2"
+msgstr "Photoniseur\nE = M*C^2"
 
 #: item/craft_item.lua:38
-msgid ""
-"Photonizer (Reversed Polarity)\n"
-"M = E/C^2"
-msgstr ""
+msgid "Photonizer (Reversed Polarity)\nM = E/C^2"
+msgstr "Photoniseur (polarité inversée)\nM = E/C^2"
 
 #: item/craft_item.lua:50
-msgid ""
-"Cobble Generator Upgrade\n"
-"Increases Cobble Generator Output"
-msgstr ""
+msgid "Cobble Generator Upgrade\nIncreases Cobble Generator Output"
+msgstr "Mise à niveau du générateur de galets Augmentation de la production du générateur de galets"
 
 #: item/craft_item.lua:56
-msgid ""
-"Wireless Crystal\n"
-"For use in a Wireless Upgrader"
-msgstr ""
+msgid "Wireless Crystal\nFor use in a Wireless Upgrader"
+msgstr "Crystal sans fil Pour utilisation dans un amplificateur sans fil"
 
 #: item/craft_item.lua:62
-msgid ""
-"Compression Tank\n"
-"Stores liquids at high pressure. Used for making Reservoirs."
-msgstr ""
+msgid "Compression Tank\nStores liquids at high pressure. Used for making Reservoirs."
+msgstr "Réservoir de compression Stocke les liquides à haute pression. Utilisé pour la fabrication de réservoirs."
 
 #: item/craft_item_nodes.lua:47
 msgid "Silverin Plate"
-msgstr "Plaque Silverin"
+msgstr "Plaque d'argentine"
 
 #: item/storage_upgrade.lua:7
-msgid ""
-"Silverin Storage Upgrade\n"
-"Adds 512 Mass Storage Slot Capacity"
-msgstr ""
+msgid "Silverin Storage Upgrade\nAdds 512 Mass Storage Slot Capacity"
+msgstr "Amélioration de la capacité de stockage de Silverin Augmentation de la capacité de 512 emplacements de stockage de masse"
 
 #: item/storage_upgrade.lua:14
-msgid ""
-"Diamond Storage Upgrade\n"
-"Adds 1024 Mass Storage Slot Capacity"
-msgstr ""
+msgid "Diamond Storage Upgrade\nAdds 1024 Mass Storage Slot Capacity"
+msgstr "Amélioration de la capacité de stockage Diamond Augmentation de la capacité de 1024 emplacements de stockage de masse"
 
 #: logic/access_point.lua:10
 msgid "No Liquid Storage"
@@ -1622,23 +949,20 @@ msgid "Free Capacity:"
 msgstr "Capacité libre :"
 
 #: logic/access_point_formspec.lua:44
-msgid ""
-"Applies to Tools only:\n"
-"ON = Differentiate items using metadata\n"
-"OFF = Group items only by name, ignore metadata"
-msgstr ""
+msgid "Applies to Tools only:\nON = Differentiate items using metadata\nOFF = Group items only by name, ignore metadata"
+msgstr "S'applique uniquement aux outils:\nON = différencier les éléments à l'aide des métadonnées\nOFF = regrouper les éléments uniquement par nom, ignorer les métadonnées"
 
 #: logic/access_point_formspec.lua:45
 msgid "Show All items"
-msgstr "Afficher tous les objets"
+msgstr "Afficher tous les articles"
 
 #: logic/access_point_formspec.lua:46
 msgid "Show Nodes only"
-msgstr "Afficher uniquement les blocs"
+msgstr "Afficher uniquement les nœuds"
 
 #: logic/access_point_formspec.lua:47
 msgid "Show Craft items only"
-msgstr "Afficher uniquement les objets d'artisanat"
+msgstr "Exposition Articles d'artisanat uniquement"
 
 #: logic/access_point_formspec.lua:48
 msgid "Show Tools only"
@@ -1646,21 +970,19 @@ msgstr "Afficher uniquement les outils"
 
 #: logic/access_point_formspec.lua:49
 msgid "Show Light sources only"
-msgstr "Afficher uniquement les sources de lumière"
+msgstr "Afficher uniquement les sources lumineuses"
 
 #: logic/access_point_formspec.lua:50
-msgid ""
-"Search by text\n"
-"Use group:some_group to find items belongong to some_group"
-msgstr ""
+msgid "Search by text\nUse group:some_group to find items belongong to some_group"
+msgstr "Recherche par texte Utilisez group:some_group pour trouver des éléments appartenant à some_group"
 
 #: logic/access_point_formspec.lua:51
 msgid "Clear search"
-msgstr "Effacer la recherche"
+msgstr "Recherche claire"
 
 #: logic/access_point_formspec.lua:114
 msgid "Filter"
-msgstr "Filtrer"
+msgstr "Filtre"
 
 #: logic/access_point_formspec.lua:146
 msgid "Page"
@@ -1668,7 +990,7 @@ msgstr "Page"
 
 #: logic/access_point_formspec.lua:175
 msgid "<NONE>"
-msgstr "<AUCUN>"
+msgstr "<NONE>"
 
 #: logic/access_point_formspec.lua:181
 msgid "Metadata: ON"
@@ -1680,15 +1002,15 @@ msgstr "Métadonnées : OFF"
 
 #: logic/access_point_formspec.lua:198
 msgid "Network: "
-msgstr "Réseau : "
+msgstr "Réseau :"
 
 #: logic/access_point_formspec.lua:378
 msgid "Access Point not connected to any network"
-msgstr ""
+msgstr "Le point d'accès n'est connecté à aucun réseau"
 
 #: logic/access_point_formspec.lua:388
 msgid "Not enough space or allocated mass storage slots in network for item"
-msgstr "Pas assez d'espace ou d'emplacements de stockage de masse alloués dans le réseau pour l'objet"
+msgstr "Pas assez d'espace ou d'emplacements de mémoire de masse alloués dans le réseau pour l'élément."
 
 #: logic/bucket_filler.lua:56
 msgid "Can't take a stack of size 0"
@@ -1700,15 +1022,15 @@ msgstr "Pas de réseau"
 
 #: logic/bucket_filler.lua:63
 msgid "Unknown liquid: "
-msgstr "Liquide inconnu : "
+msgstr "Liquide inconnu :"
 
 #: logic/bucket_filler.lua:70
 msgid "Unknown filled bucket requested: "
-msgstr "Seau rempli inconnu demandé : "
+msgstr "Seau rempli inconnu demandé :"
 
 #: logic/bucket_filler.lua:73
 msgid "Unknown full bucket: "
-msgstr "Seau plein inconnu : "
+msgstr "Seau plein inconnu :"
 
 #: logic/bucket_filler.lua:125
 msgid "Not enough empty buckets available"
@@ -1732,29 +1054,27 @@ msgstr "Durabilité"
 
 #: logic/lava_furnace_guide_formspec.lua:35
 msgid "Lava Furnace can only use Lava as fuel"
-msgstr "Le Four à Lave ne peut utiliser que de la Lave comme carburant"
+msgstr "Le four à lave ne peut utiliser que de la lave comme combustible."
 
 #: logic/lava_furnace_guide_formspec.lua:45
 msgid "Use Chance: "
-msgstr "Chance d'utilisation : "
+msgstr "Utiliser le hasard :"
 
 #: logic/lava_furnace_guide_formspec.lua:50
 msgid "Lava Furnace Recipes"
-msgstr "Recettes du Four à Lave"
+msgstr "Recettes du four à lave"
 
 #: logic/lava_furnace_guide_formspec.lua:51
 msgid "Page: "
-msgstr "Page : "
+msgstr "Page :"
 
 #: logic/mass_storage.lua:25
 msgid "Stored "
-msgstr "Stocké "
+msgstr "Stocké"
 
 #: logic/mass_storage.lua:247 logic/mass_storage.lua:249
-msgid ""
-"\n"
-"(Has: "
-msgstr ""
+msgid "\n(Has: "
+msgstr "\n(Has :"
 
 #: logic/reservoir.lua:20
 msgid "Reservoir"
@@ -1762,7 +1082,7 @@ msgstr "Réservoir"
 
 #: logic/reservoir.lua:23
 msgid "@1 / @2 buckets"
-msgstr "@1 / @2 seaux"
+msgstr "Seaux @1 / @2"
 
 #: logic/reservoir.lua:25
 msgid "@1 / @2 buckets of @3"
@@ -1770,35 +1090,35 @@ msgstr "@1 / @2 seaux de @3"
 
 #: logic/synchronizer.lua:136
 msgid "Max range of @1 reached, cannot upgrade WAP further"
-msgstr "Portée maximale de @1 atteinte, impossible d'améliorer davantage la tablette"
+msgstr "La portée maximale de @1 est atteinte, il n'est plus possible d'améliorer le WAP."
 
 #: logic/synchronizer.lua:226 logic/synchronizer.lua:228
 msgid "Increase Frequency"
-msgstr "Augmenter la Fréquence"
+msgstr "Augmenter la fréquence"
 
 #: logic/synchronizer.lua:227 logic/synchronizer.lua:229
 msgid "Decrease Frequency"
-msgstr "Diminuer la Fréquence"
+msgstr "Diminution de la fréquence"
 
 #: logic/synchronizer.lua:232 logic/synchronizer.lua:234
 msgid "Shift Right"
-msgstr "Décaler à Droite"
+msgstr "Décaler vers la droite"
 
 #: logic/synchronizer.lua:233 logic/synchronizer.lua:235
 msgid "Shift Left"
-msgstr "Décaler à Gauche"
+msgstr "Déplacement vers la gauche"
 
 #: logic/synchronizer.lua:241
 msgid "Target Wave"
-msgstr "Vague Cible"
+msgstr "Vague cible"
 
 #: logic/synchronizer.lua:242
 msgid "Crsyals' Wave"
-msgstr "Vague des Cristaux"
+msgstr "Vague de Crsyals"
 
 #: logic/synchronizer.lua:266
 msgid "Upgrade"
-msgstr "Amélioration"
+msgstr "Mise à niveau"
 
 #: logic/synchronizer.lua:290 logic/synchronizer.lua:291
 msgid "Crystal"
@@ -1806,106 +1126,91 @@ msgstr "Cristal"
 
 #: logic/synchronizer.lua:292 tools/wireless_access_pad.lua:10
 msgid "Wireless Access Pad"
-msgstr "Tablette d'Accès Sans Fil"
+msgstr "Bloc d'accès sans fil"
 
 #: logic/synchronizer.lua:331
 msgid "Someone is currently using this Upgrader!"
-msgstr "Quelqu'un utilise actuellement cet Améliorateur !"
+msgstr "Quelqu'un utilise actuellement cet Upgrader !"
 
 #: logic/wireless_network.lua:9
 msgid "Wireless Transmitter for Network: "
-msgstr "Émetteur Sans Fil pour le Réseau : "
+msgstr "Émetteur sans fil pour le réseau :"
 
 #: registration/compat_i3.lua:6 registration/compat_unified_inv.lua:5
 msgid "Lava Furnace [logistica]"
-msgstr "Four à Lave [logistica]"
+msgstr "Four à lave [logistique]"
 
 #: registration/machines_api_reg.lua:52
 msgid "Optic Cable"
-msgstr "Câble Optique"
+msgstr "Câble optique"
 
 #: registration/machines_api_reg.lua:55
 msgid "Embedded Optic Cable"
-msgstr "Câble Optique Intégré"
+msgstr "Câble optique intégré"
 
 #: registration/machines_api_reg.lua:72
 msgid "Toggleable Cable"
-msgstr "Câble Commutable"
+msgstr "Câble à bascule"
 
 #: registration/machines_api_reg.lua:81
 msgid "Cobble Generator"
-msgstr "Générateur de Pavé"
+msgstr "Générateur de galets"
 
 #: registration/machines_api_reg.lua:95
 msgid "Logistic Network Controller"
-msgstr "Contrôleur de Réseau Logistique"
+msgstr "Contrôleur de réseau logistique"
 
 #: registration/machines_api_reg.lua:138
 msgid "Crafting Supplier"
-msgstr "Fournisseur d'Artisanat"
+msgstr "Fournisseur d'artisanat"
 
 #: registration/machines_api_reg.lua:157
-msgid ""
-"Slow Network Importer\n"
-"Imports 10 items at a time"
-msgstr ""
+msgid "Slow Network Importer\nImports 10 items at a time"
+msgstr "L'importateur réseau lent importe 10 éléments à la fois"
 
 #: registration/machines_api_reg.lua:158
-msgid ""
-"Fast Network Importer\n"
-"Imports 99 items at a time"
-msgstr ""
+msgid "Fast Network Importer\nImports 99 items at a time"
+msgstr "Importateur rapide de réseaux : importe 99 éléments à la fois"
 
 #: registration/machines_api_reg.lua:164
-msgid ""
-"Tool Chest\n"
-"Stores Tools Only"
-msgstr ""
+msgid "Tool Chest\nStores Tools Only"
+msgstr "Coffre à outils (magasins) Outils uniquement"
 
 #: registration/machines_api_reg.lua:217
 msgid "Liquid Pump"
-msgstr "Pompe à Liquide"
+msgstr "Pompe à liquide"
 
 #: registration/machines_api_reg.lua:257
-msgid ""
-"Item Request Inserter\n"
-"Inserts 1 item at a time"
-msgstr ""
+msgid "Item Request Inserter\nInserts 1 item at a time"
+msgstr "Insertion des demandes d'articles Insère 1 article à la fois"
 
 #: registration/machines_api_reg.lua:258
-msgid ""
-"Bulk Request Inserter\n"
-"Inserts up to 64 items at a time"
-msgstr ""
+msgid "Bulk Request Inserter\nInserts up to 64 items at a time"
+msgstr "Insertion de demandes groupées Insère jusqu'à 64 articles à la fois"
 
 #: registration/machines_api_reg.lua:270
 msgid "Passive Supplier Chest"
-msgstr "Coffre Fournisseur Passif"
+msgstr "Coffre de fournisseur passif"
 
 #: registration/machines_api_reg.lua:296
 msgid "Vaccuum Supplier Chest"
-msgstr "Coffre Fournisseur Aspirateur"
+msgstr "Coffre de fournisseur sous vide"
 
 #: registration/machines_api_reg.lua:352
-msgid ""
-"Wireless Transmitter\n"
-"Must be placed on top of a Network Controller"
-msgstr ""
+msgid "Wireless Transmitter\nMust be placed on top of a Network Controller"
+msgstr "Émetteur sans fil Doit être placé au-dessus d'un contrôleur de réseau"
 
 #: registration/misc.lua:7
 msgid "Silverin Block"
-msgstr "Bloc Silverin"
+msgstr "Bloc d'argentine"
 
 #: tools/hyperspanner.lua:3
-msgid ""
-"Hyperspanner\n"
-"Use on node to see which network it belongs to\n"
-"Sneak + Use on node to see detailed network info"
-msgstr ""
+msgid "Hyperspanner\nUse on node to see which network it belongs to\nSneak + Use on node to see detailed network info"
+msgstr "Hyperspanner Utiliser sur le nœud pour voir à quel réseau il appartient."
 
 #: tools/hyperspanner.lua:4
 msgid "Node has no connected network!"
-msgstr "Le nœud n'est connecté à aucun réseau !"
+msgstr "Le nœud n'a pas de réseau connecté !"
 
 #: tools/hyperspanner.lua:29
 msgid "Network"
@@ -1917,52 +1222,49 @@ msgstr "Informations sur le réseau pour"
 
 #: tools/misc.lua:4
 msgid "Inv List Scanner"
-msgstr "Scanner de Liste d'Inventaire"
+msgstr "Scanner de liste d'inv."
 
 #: tools/wireless_access_pad.lua:6
 msgid "Use in a Wireless Upgrader to initialize"
-msgstr "Utiliser dans un Améliorateur Sans Fil pour initialiser"
+msgstr "A utiliser dans un programme de mise à niveau sans fil pour initialiser"
 
 #: tools/wireless_access_pad.lua:12
-msgid ""
-"Wireless Access Pad\n"
-"Sneak+Punch an Access Point to Sync\n"
-"Range: @1"
-msgstr ""
+msgid "Wireless Access Pad\nSneak+Punch an Access Point to Sync\nRange: @1"
+msgstr "Point d'accès sans fil Synchroniser un point d'accès Portée @1"
 
 #: tools/wireless_access_pad.lua:33 tools/wireless_access_pad.lua:72
 msgid "This Wireless Access Pad is not initialized"
-msgstr "Cette Tablette d'Accès Sans Fil n'est pas initialisée"
+msgstr "Ce clavier d'accès sans fil n'est pas initialisé"
 
 #: tools/wireless_access_pad.lua:39
 msgid "This Access Point is in a protected area!"
-msgstr "Ce Point d'Accès est dans une zone protégée !"
+msgstr "Ce point d'accès se trouve dans une zone protégée !"
 
 #: tools/wireless_access_pad.lua:46
 msgid "Synced to Access Point at"
-msgstr "Synchronisé avec le Point d'Accès à"
+msgstr "Synchronisé avec le point d'accès à"
 
 #: tools/wireless_access_pad.lua:78
 msgid "This WAP is not synced to any Access Point."
-msgstr "Cette tablette n'est synchronisée avec aucun Point d'Accès."
+msgstr "Ce WAP n'est synchronisé avec aucun point d'accès."
 
 #: tools/wireless_access_pad.lua:86
 msgid "The synced Access Point is too far away!"
-msgstr "Le Point d'Accès synchronisé est trop loin !"
+msgstr "Le point d'accès synchronisé est trop éloigné !"
 
 #: tools/wireless_access_pad.lua:96
 msgid "The synced Access Point no longer exists!"
-msgstr "Le Point d'Accès synchronisé n'existe plus !"
+msgstr "Le point d'accès synchronisé n'existe plus !"
 
 #: tools/wireless_access_pad.lua:101
-msgid ""
-"The synced Access Point is in a protected area! How did you manage that?"
-msgstr ""
+msgid "The synced Access Point is in a protected area! How did you manage that?"
+msgstr "Le point d'accès synchronisé se trouve dans une zone protégée ! Comment avez-vous fait ?"
 
 #: util/liquids.lua:13
 msgid "Water"
-msgstr "Eau"
+msgstr "L'eau"
 
 #: util/liquids.lua:14
 msgid "River Water"
-msgstr "Eau de Rivière"
+msgstr "Eau de rivière"
+
